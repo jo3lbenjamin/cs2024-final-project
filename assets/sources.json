@@ -1,0 +1,200 @@
+{
+  "retrieved": "2026-10-22",
+  "images": {
+    "sourcePages": [
+      "https://www.skin1004.com/products/hyalu-cica-water-fit-sun-serum-spf50-pa?country=GB",
+      "https://www.skin1004.com/products/skin1004-madagascar-centella-hyalu-cica-cloudy-mist"
+    ],
+    "rights": "Original SKIN1004 source photography and trademarks belong to SKIN1004; retained files are reference material. Active Aureveil packaging visuals are original AI-generated mockups, not images of the goods sold in the linked listings. No manufacturer affiliation or open licence for the source photography is asserted.",
+    "processing": "Reference photography: original Shopify CDN WebP transforms. Aureveil packaging visuals: generated with the built-in image_gen tool, then resized and WebP-encoded with sharp; no semantic post-processing. Original generation files retained locally.",
+    "assets": [
+      {
+        "file": "images/sun-serum.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-sun-hyalu-cica-water-fit-sun-serum-spf50-pa-40739561865462.png?v=1776762422&width=800&format=webp",
+        "bytes": 12226,
+        "mimeType": "image/webp",
+        "width": 800,
+        "height": 800,
+        "description": "Transparent white-and-blue 50ml SPF50+ PA++++ sun serum tube, generous original margins",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/cloudy-mist.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-mist-120ml-hyalu-cica-cloudy-mist-1172582051.png?v=1749552790&width=800&format=webp",
+        "bytes": 9456,
+        "mimeType": "image/webp",
+        "width": 800,
+        "height": 800,
+        "description": "Transparent blue 120ml Cloudy Mist bottle, generous original margins",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/sun-detail.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-sun-hyalu-cica-water-fit-sun-serum-1233347071.jpg?v=1776768853&width=1000&format=webp",
+        "bytes": 21440,
+        "mimeType": "image/webp",
+        "width": 1000,
+        "height": 1000,
+        "description": "50ml sun serum standing with water drops in blue sunlight",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/sun-bokeh.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-sun-hyalu-cica-water-fit-sun-serum-1233347074.jpg?v=1776768791&width=1000&format=webp",
+        "bytes": 29442,
+        "mimeType": "image/webp",
+        "width": 1000,
+        "height": 1000,
+        "description": "50ml sun serum tilted against blue water bokeh",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/mist-detail.webp",
+        "url": "https://cdn.shopify.com/s/files/1/0590/4538/0253/products/skin1004-mist-120ml-madagascar-centella-hyalu-cica-cloudy-mist-36440173969654.jpg?v=1749544067&width=1000&format=webp",
+        "bytes": 18740,
+        "mimeType": "image/webp",
+        "width": 900,
+        "height": 900,
+        "description": "120ml Cloudy Mist bottle on a white platform with clear decorative spheres",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/sun-texture.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-sun-hyalu-cica-water-fit-sun-serum-1233347072.jpg?v=1776768730&width=1000&format=webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 33276,
+        "mimeType": "image/webp",
+        "description": "Two 50ml sun serum tubes against blue background and white textured fabric",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/sun-flatlay.webp",
+        "url": "https://www.skin1004.com/cdn/shop/files/skin1004-sun-hyalu-cica-water-fit-sun-serum-1233347073.jpg?v=1776768669&width=1000&format=webp",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 31580,
+        "mimeType": "image/webp",
+        "description": "Close-up sun serum tube beside a cream texture swatch on blue",
+        "usage": "Archived manufacturer reference; not referenced by current website images"
+      },
+      {
+        "file": "images/lifestyle.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-ca080dbd-1b58-441e-a8c2-d2f82490a9ce.png (original generation retained locally)",
+        "promptSummary": "Original editorial portrait of a Southeast Asian woman in her early 30s, natural skin texture, pale blue blouse, Singapore morning apartment and champagne gold light.",
+        "fullPrompt": "../planning/image-prompts.md",
+        "purpose": "Illustrative editorial lifestyle visual; does not show product results or represent a real customer testimonial.",
+        "processing": "Original preserved; resized to 1200px wide and encoded as WebP quality 85 with sharp. No semantic editing.",
+        "width": 1200,
+        "height": 800,
+        "bytes": 72740,
+        "mimeType": "image/webp",
+        "usage": "Active editorial campaign illustration"
+      },
+      {
+        "file": "images/aureveil-sun-serum.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+        "fullPrompt": "../planning/aureveil-image-prompts.json",
+        "intent": "generate",
+        "purpose": "Original Aureveil packaging visualization; external SKIN1004 goods arrive in their original packaging.",
+        "usage": "Active website asset",
+        "processing": "Resized to 800 × 800; WebP quality 88, transparency preserved.",
+        "width": 800,
+        "height": 800,
+        "bytes": 36988,
+        "mimeType": "image/webp",
+        "hasAlpha": true
+      },
+      {
+        "file": "images/aureveil-cloudy-mist.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-a3386207-387d-400b-bc6d-decd7d68114b.png",
+        "fullPrompt": "../planning/aureveil-image-prompts.json",
+        "intent": "generate",
+        "purpose": "Original Aureveil packaging visualization; external SKIN1004 goods arrive in their original packaging.",
+        "usage": "Active website asset",
+        "processing": "Resized to 800 × 800; WebP quality 88, transparency preserved.",
+        "width": 800,
+        "height": 800,
+        "bytes": 26104,
+        "mimeType": "image/webp",
+        "hasAlpha": true
+      },
+      {
+        "file": "images/aureveil-sun-hero.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-c11b0fa0-1d22-4191-89d8-be8358c46e43.png",
+        "reference": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+        "fullPrompt": "../planning/aureveil-image-prompts.json",
+        "intent": "edit with generated packaging reference",
+        "purpose": "Original Aureveil packaging visualization; external SKIN1004 goods arrive in their original packaging.",
+        "usage": "Active website asset",
+        "processing": "Resized to 1000 × 1000; WebP quality 85.",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 35342,
+        "mimeType": "image/webp",
+        "hasAlpha": false
+      },
+      {
+        "file": "images/aureveil-sun-detail.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-5bd46deb-df43-4606-a00a-2a7efc49b086.png",
+        "reference": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+        "fullPrompt": "../planning/aureveil-image-prompts.json",
+        "intent": "edit with generated packaging reference",
+        "purpose": "Original Aureveil packaging visualization; external SKIN1004 goods arrive in their original packaging.",
+        "usage": "Active website asset",
+        "processing": "Resized to 1000 × 1000; WebP quality 85.",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 138346,
+        "mimeType": "image/webp",
+        "hasAlpha": false
+      },
+      {
+        "file": "images/aureveil-mist-detail.webp",
+        "source": "Built-in OpenAI imagegen",
+        "mode": "builtin",
+        "original": "exec-24e404f0-053f-4fb1-bfd9-508a072e0468.png",
+        "reference": "exec-a3386207-387d-400b-bc6d-decd7d68114b.png",
+        "fullPrompt": "../planning/aureveil-image-prompts.json",
+        "intent": "edit with generated packaging reference",
+        "purpose": "Original Aureveil packaging visualization; external SKIN1004 goods arrive in their original packaging.",
+        "usage": "Active website asset",
+        "processing": "Resized to 1000 × 1000; WebP quality 85.",
+        "width": 1000,
+        "height": 1000,
+        "bytes": 41664,
+        "mimeType": "image/webp",
+        "hasAlpha": false
+      }
+    ]
+  },
+  "fonts": {
+    "license": "SIL Open Font License 1.1; exact license texts included in fonts/manrope-OFL.txt and fonts/cormorantgaramond-OFL.txt",
+    "source": "https://github.com/google/fonts",
+    "assets": [
+      {
+        "file": "fonts/cormorant-garamond.woff2",
+        "url": "https://fonts.gstatic.com/s/cormorantgaramond/v21/co3bmX5slCNuHLi8bLeY9MK7whWMhyjYqXtK.woff2",
+        "license": "https://github.com/google/fonts/blob/main/ofl/cormorantgaramond/OFL.txt",
+        "localLicense": "fonts/cormorantgaramond-OFL.txt"
+      },
+      {
+        "file": "fonts/manrope.woff2",
+        "url": "https://fonts.gstatic.com/s/manrope/v20/xn7gYHE41ni1AdIRggexSg.woff2",
+        "license": "https://github.com/google/fonts/blob/main/ofl/manrope/OFL.txt",
+        "localLicense": "fonts/manrope-OFL.txt"
+      }
+    ],
+    "notes": "Latin subset WOFF2 fonts from official Google Fonts CSS; use font-weight range 400 700 for Manrope and 400 600 for Cormorant Garamond."
+  }
+}

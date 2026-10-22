@@ -1,0 +1,34 @@
+(() => {
+  const menu = document.querySelector('.menu-toggle');
+  const nav = document.querySelector('.main-nav');
+  const shop = document.querySelector('.nav-shop');
+  const shopLinks = document.querySelector('#shop-links');
+  const closeShop = () => {shop?.setAttribute('aria-expanded','false'); if(shopLinks) shopLinks.hidden=true;};
+  const closeMenu = () => {menu?.setAttribute('aria-expanded','false'); menu?.setAttribute('aria-label','Open navigation'); nav?.classList.remove('is-open'); closeShop();};
+  menu?.addEventListener('click',()=>{const expanded=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(expanded));menu.setAttribute('aria-label',expanded?'Close navigation':'Open navigation');nav.classList.toggle('is-open',expanded);});
+  shop?.addEventListener('click',()=>{const expanded=shop.getAttribute('aria-expanded')!=='true';shop.setAttribute('aria-expanded',String(expanded));shopLinks.hidden=!expanded;});
+  document.addEventListener('click',event=>{if(!event.target.closest('.shop-menu'))closeShop();if(!event.target.closest('.site-header'))closeMenu();});
+  document.addEventListener('keydown',event=>{if(event.key==='Escape'){if(shop?.getAttribute('aria-expanded')==='true'){closeShop();shop.focus();}else if(menu?.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus();}}});
+  document.querySelectorAll('.gallery-thumbs .thumb').forEach(button=>button.addEventListener('click',()=>{const main=button.closest('.product-gallery').querySelector('.gallery-main img');const thumb=button.querySelector('img');main.src=`assets/images/${button.dataset.gallery}.webp`;main.alt=thumb.alt.replace(' thumbnail','');main.classList.toggle('cutout',['aureveil-sun-serum','aureveil-cloudy-mist'].includes(button.dataset.gallery));button.parentElement.querySelectorAll('.thumb').forEach(item=>{item.classList.toggle('active',item===button);item.setAttribute('aria-pressed',String(item===button));});}));
+  const dialog=document.querySelector('#duo-dialog');
+  document.querySelectorAll('[data-open-duo]').forEach(button=>button.addEventListener('click',()=>dialog.showModal()));
+  dialog?.querySelector('.dialog-close').addEventListener('click',()=>dialog.close());
+  dialog?.addEventListener('click',event=>{const rect=dialog.getBoundingClientRect();if(event.target===dialog&&(event.clientX<rect.left||event.clientX>rect.right||event.clientY<rect.top||event.clientY>rect.bottom))dialog.close();});
+  const form=document.querySelector('#routine-form');
+  const result=document.querySelector('#routine-result');
+  form?.classList.add('is-ready');
+  form?.addEventListener('submit',event=>{
+    event.preventDefault();
+    if(!form.reportValidity())return;
+    const data=new FormData(form);
+    const pairing=data.get('edit')==='duo'||data.get('priority')==='both';
+    const mistFirst=data.get('priority')==='hydration'&&!pairing;
+    const title=pairing?'Your Protect + Refresh ritual.':mistFirst?'Your little hydration reset.':'Your daily protection essential.';
+    const product=pairing?'The Protect + Refresh Duo':mistFirst?'Cloud Mist':'Daily Sun Serum';
+    const target=pairing?'duo.html':mistFirst?'cloudy-mist.html':'sun-serum.html';
+    const desc=pairing?'Two different roles, one considered edit. Explore the Daily Sun Serum for labelled UV protection and the Cloud Mist for hydration.':mistFirst?'You are interested in hydration and a focused edit. Cloud Mist could be an optional refreshing step. It does not provide SPF, so keep labelled sun protection in your day.':'Start with our main product: a lightweight SPF50+ PA++++ sunscreen. Make it the last step of basic skincare and follow the label for application and reapplication.';
+    result.innerHTML=`<p class="eyebrow">Your daily edit</p><h2>${title}</h2><p>${desc}</p>${data.get('morning')==='makeup'?'<p>On makeup mornings, finish skincare with sunscreen and let it settle before makeup. We suggest Cloud Mist for hydration; no makeup-fixing claim is made.</p>':'<p>Keep the steps comfortable and repeatable. Following product directions matters more than adding extra products.</p>'}<a class="btn btn-primary" href="${target}">Explore ${product} <span aria-hidden="true">→</span></a><button class="text-link reset-quiz" type="button">Start again <span aria-hidden="true">↻</span></button><p class="fine-print">This is product guidance, not a skin diagnosis. Your selections have not been saved or sent anywhere.</p>`;
+    form.hidden=true;result.hidden=false;result.focus();
+    result.querySelector('.reset-quiz').addEventListener('click',()=>{form.reset();form.hidden=false;result.hidden=true;result.innerHTML='';form.querySelector('input').focus();});
+  });
+})();

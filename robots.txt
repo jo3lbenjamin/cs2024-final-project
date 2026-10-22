@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://jo3lbenjamin.github.io/cs2024-final-project/sitemap.xml

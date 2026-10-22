@@ -1,0 +1,24 @@
+AUREVEIL — PUBLISH WITH HTTPS
+
+Recommended route: Cloudflare Pages Direct Upload.
+Shopify and a purchased domain are not needed for this static website.
+
+1. Sign in to the Cloudflare dashboard with your account.
+2. Open Workers & Pages, then Create application > Get started > Drag and drop your files.
+3. Enter a project name, such as aureveil or an available variation.
+4. Upload aureveil-publish.zip and choose Deploy site.
+5. Cloudflare provides an HTTPS address ending in .pages.dev. Open that address to run Lighthouse.
+
+The ZIP includes the 12 website pages, active images, local fonts, CSS and JavaScript.
+It excludes research/planning documents, audit reports and unused manufacturer images.
+Its metadata is portable: it does not point to the earlier planned GitHub Pages address.
+Once your public URL is known, share it so canonical links, social-preview URLs and the sitemap can be finalized and Lighthouse can be checked on the published site.
+
+This ZIP is a snapshot of the current website. Regenerate it after further website edits before uploading again.
+Your existing Shopee purchase links are included. No cart or payment backend needs to be installed.
+
+Official references:
+https://developers.cloudflare.com/pages/get-started/direct-upload/
+https://www.cloudflare.com/en-gb/developer-platform/products/pages/
+
+GitHub Pages remains another technical HTTPS-hosting option; its rules restrict sites primarily facilitating commercial transactions. Keep the provided GitHub repository for source control if desired.

@@ -1,0 +1,12 @@
+{
+  "name": "aureveil-student-retail-concept",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aureveil: an independent educational skincare retail concept.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/server.mjs",
+    "check": "node scripts/check.mjs"
+  }
+}

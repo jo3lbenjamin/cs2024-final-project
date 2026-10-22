@@ -1,0 +1,70 @@
+{
+  "createdOn": "2026-10-22",
+  "mode": "built-in image_gen",
+  "purpose": "Original Aureveil packaging visualizations. Shopee product links still lead to SKIN1004 goods in their original packaging.",
+  "assets": [
+    {
+      "key": "sun",
+      "asset": "assets/images/aureveil-sun-serum.webp",
+      "original": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+      "width": 800,
+      "height": 800,
+      "bytes": 36988,
+      "alpha": true,
+      "intent": "generate",
+      "transparent_background": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic premium skincare packaging design visualization for the original brand \"aureveil\" (spell exactly a-u-r-e-v-e-i-l in lowercase). This is a fictional packaging mockup for a website, not a photo of an existing manufactured product. Single 50 ml sunscreen serum squeeze tube, upright, whole tube and cap entirely visible. Front label faces camera directly. Elegant matte ivory-white tube with a pale pastel powder-blue lower third and flat cylindrical matching blue cap, a very fine champagne-gold accent line. Understated premium editorial design, airy and graceful for working adults in their late twenties and early thirties. Beautifully clear lowercase serif wordmark \"aureveil\" in dark navy, large and readable at the upper center. Only the following other label text, verbatim in tiny clean navy type: \"DAILY SUN SERUM\" and \"50 ml\". No additional writing, no SPF rating, no certification stamps, no other brands, no SKIN1004, no boxes or props. Straight vertical front view, subtle realistic material reflections and a very soft ground contact shadow. Transparent background with clean natural edges, no white rectangle. Square canvas, product centered horizontally and vertically and occupying about 78% of canvas height; leave ample clear margins on every side. Photorealistic high-end studio packshot."
+    },
+    {
+      "key": "mist",
+      "asset": "assets/images/aureveil-cloudy-mist.webp",
+      "original": "exec-a3386207-387d-400b-bc6d-decd7d68114b.png",
+      "width": 800,
+      "height": 800,
+      "bytes": 26104,
+      "alpha": true,
+      "intent": "generate",
+      "transparent_background": true,
+      "prompt": "Use case: product-mockup. Generate one photorealistic premium facial mist packaging design visualization for original brand \"aureveil\" (spell exactly a-u-r-e-v-e-i-l in lowercase). This is a fictional packaging mockup for a website, not a photo of an existing manufactured product. Single slim 120 ml cylindrical facial mist bottle, upright, whole bottle and cap entirely visible. Frosted translucent pale pastel powder-blue bottle containing clear liquid, soft ivory mist pump under an elegant transparent cylindrical cap, a fine champagne-gold collar line. Front label facing camera directly. Understated premium editorial design matching an ivory and powder-blue sun-serum tube. Beautifully clear lowercase serif wordmark \"aureveil\" in dark navy, large and readable at the upper center of the front label. Only other label text, verbatim in small clean navy type: \"CLOUD MIST\" and \"120 ml\". No extra writing, no SPF rating, no certifications, no other brands, no SKIN1004, no boxes, no props. Straight vertical front view with subtle realistic glass-like plastic reflections, frosted texture and soft ground contact shadow. Genuinely transparent background, natural clean edges, no white rectangle. Square canvas, centered horizontally and vertically, product occupying about 78% of canvas height with ample clear margins all around. Photorealistic high-end studio packshot."
+    },
+    {
+      "key": "hero",
+      "asset": "assets/images/aureveil-sun-hero.webp",
+      "original": "exec-c11b0fa0-1d22-4191-89d8-be8358c46e43.png",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 35342,
+      "alpha": false,
+      "intent": "edit with generated packaging reference",
+      "reference": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+      "transparent_background": false,
+      "prompt": "Use case: product-mockup editorial photograph. Image 1 is the packaging design to preserve exactly: the ivory and pale pastel blue tube with champagne-gold trim, dark navy lowercase \"aureveil\" serif wordmark, \"DAILY SUN SERUM\" and \"50 ml\". Create an elegant photorealistic vertical-friendly square beauty campaign photograph of this exact single tube, whole tube and cap visible, gently tilted clockwise about 15 degrees, standing or lightly hovering over a soft pale powder-blue surface. Keep the wordmark aureveil crisply legible, with exactly the same spelling and label design. Background: airy pastel-blue gradient, very soft diffused window-light bokeh and subtle warm champagne-gold highlights at one edge. Beautiful believable light and materials, soft natural shadows, refined premium skincare editorial mood, spacious balanced composition. Tube occupies about 63% of canvas height, centered, leave at least15% breathingroom all sides for flexible arched image cropping on a website. No extra text, no overlaid typography, no other brands, no SKIN1004, no certifications, no flowers, no people or hands, no box. Preserve product shape/colors/branding and make no efficacy or SPF claims on packaging. This is an original packaging visualization, not actual product photography."
+    },
+    {
+      "key": "sun-detail",
+      "asset": "assets/images/aureveil-sun-detail.webp",
+      "original": "exec-5bd46deb-df43-4606-a00a-2a7efc49b086.png",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 138346,
+      "alpha": false,
+      "intent": "edit with generated packaging reference",
+      "reference": "exec-a23f2e30-3305-4dd1-9d11-7ba16b266a61.png",
+      "transparent_background": false,
+      "prompt": "Use case: product-mockup editorial still life. Image 1 is the exact product packaging design to preserve: ivory and pastel-blue tube with gold line, lowercase navy serif \"aureveil\", \"DAILY SUN SERUM\" and \"50 ml\". Create a square premium photorealistic skincare still life for a product gallery. Single full tube lies at a gentle diagonal on an ivory pearl stone surface beside one smooth small white cream swatch, with soft powder-blue fabric folded quietly at the edge and champagne-gold sunlight/shadows. Label faces camera and reads \"aureveil\" exactly. Tube occupies roughly65% image height with breathingroom, entire cap and tube visible, realistic material texture, quiet editorial art direction, light airy palette matching a pastel blue and gold website. Preserve the exact packaging shape and colorblock and type hierarchy; no extra brand or text, no SKIN1004, no logos on props, no product results or skin claims, no SPF number or certifications. No text overlay. Original fictional packaging visualization."
+    },
+    {
+      "key": "mist-detail",
+      "asset": "assets/images/aureveil-mist-detail.webp",
+      "original": "exec-24e404f0-053f-4fb1-bfd9-508a072e0468.png",
+      "width": 1000,
+      "height": 1000,
+      "bytes": 41664,
+      "alpha": false,
+      "intent": "edit with generated packaging reference",
+      "reference": "exec-a3386207-387d-400b-bc6d-decd7d68114b.png",
+      "transparent_background": false,
+      "prompt": "Use case: product-mockup editorial photograph. Image 1 is exact packaging to preserve: frosted pale powder-blue cylindrical mist bottle with clear cap, ivory mist pump, subtle champagne gold collar, dark navy serif lowercase \"aureveil\", \"CLOUD MIST\" and \"120 ml\". Create a square premium photorealistic product still life of this exact single bottle upright on a low ivory round pedestal, set against an airy pale powder-blue-to-pearl gradient background with subtle soft gold morning light. The whole bottle and transparent cap fully visible, front wordmark \"aureveil\" crisply legible exactly, gentle condensation droplets only on outside bottle for refreshing atmosphere, realistic refined shadows and material reflections. Product occupies about68% image height, centered with generous breathingroom for responsive crops. Sophisticated calm skincare editorial art direction. Preserve bottle silhouette, pump, label position, colors and typography. No additional products, no other brands, no SKIN1004, no extra writing, no efficacy/medical claims, no SPF rating, no text overlay. Original fictional packaging visualization."
+    }
+  ]
+}

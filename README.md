@@ -103,3 +103,15 @@ Official references:
 - https://www.cloudflare.com/en-gb/developer-platform/products/pages/
 - https://developers.cloudflare.com/pages/get-started/direct-upload/
 - https://docs.github.com/en/pages/getting-started-with-github-pages/github-pages-limits
+
+## Premium design and motion — 25 October 2026
+
+The editorial refresh uses warm ivory, ice blue and restrained champagne accents, a simplified rectangular hero, larger body text and two matching original Aureveil campaign images. Shared refinements live in `assets/luxury.css`, loaded after the original layout stylesheet.
+
+Progressive enhancements in `assets/site.js` provide staggered hero entrances, below-fold image reveals, product-card image swaps on hover or keyboard focus, preloaded product-gallery crossfades with race/error handling, a scrolled glass header and a sticky Sun Serum ritual story. The story stacks on phones and when reduced motion is requested. Native cross-document view transitions enhance supported browsers; normal links work elsewhere. No Bootstrap, GSAP, remote JavaScript, analytics or video dependency is required.
+
+All content remains visible without animation support. Reduced-motion preferences disable entrances/reveals and transitions; keyboard focus reveals its containing content immediately. Gallery status updates are announced politely.
+
+Exact built-in image-generation prompts and original output paths are recorded in `planning/luxury-image-prompts.json`. Local responsive WebP exports are in `assets/images/aureveil-sun-campaign*.webp` and `assets/images/aureveil-mist-campaign*.webp`; the originals are retained. These are campaign illustrations, not product results or customer testimonials.
+
+The preview server accepts an optional PORT environment variable and defaults to 4173. Run `node scripts/check.mjs` after rebuilding. Local browser and Lighthouse checks cover the homepage on desktop/mobile; DOM integration checks cover navigation, quiz branches, galleries, reduced motion and the scroll story. Public hosting still needs to be configured by the repository owner.

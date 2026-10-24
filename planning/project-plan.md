@@ -233,3 +233,11 @@ The utility page now leads with a site map and offers short, practical browsing 
 ## First-purchase promotion — 22 October 2026
 
 The user selected 10% off the first purchase for the announcement banner. The shared banner now reads “Enjoy 10% off your first purchase.” and replaces both the previous slogan and the duplicate Discover our approach link. Our story remains in the main navigation. The banner is centred and stays visible on small screens. No voucher code, expiry, minimum spend, customer-verification system or Shopee seller promotion was created; those commercial mechanics are outside this static banner change and require separate configuration if the campaign is operated.
+
+## Premium editorial refinement — 25 October 2026
+
+The user approved the complete luxury design/motion pass. Retained the original palette, retail prices, first-purchase banner and Shopee purchase destinations. Simplified the home hero by removing the orbit, floating badge, arch and vertical caption; commissioned matching ivory-stone/blue-glass campaign images; increased reading sizes; softened section backgrounds and decorative treatments.
+
+Implemented image reveals, staggered entrances, hover/focus product-photo swaps, gallery crossfades, gold link underlines, a scrolled glass header, native page transitions and a three-step sticky product story. Mobile and reduced-motion layouts use normal stacked storytelling. Existing menus, FAQ disclosures, modal and preference-only routine form remain. Custom CSS and native browser features keep the established layout and eliminate framework/CDN dependencies. No third-party video was supplied or embedded.
+
+Responsive image files and original generation prompts are retained with provenance. All statements about product benefits and use are existing verified copy; no testimonials, clinical statistics or certifications were invented for the premium presentation.

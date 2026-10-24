@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-25",
+  "mode": "Built-in image_gen",
+  "assets": [
+    {
+      "file": "aureveil-sun-campaign.webp",
+      "prompt": "Use case: product-mockup. Create a luxury skincare editorial campaign photograph for Aureveil, portrait 4:5 composition. The supplied image is the product identity reference: preserve its exact white sunscreen tube, pale ice-blue cap and base, tiny champagne-gold band, and navy serif lowercase \"aureveil\" wordmark with \"DAILY SUN SERUM\" and \"50 ml\" label. One upright tube, fully visible, occupying about 60% of image height, sitting on honed warm ivory limestone beside a translucent pale-blue glass slab. Soft directional morning sunlight, believable fine material texture, clean natural shadows, subtle blue glass refraction. Restrained high-end beauty photography, crisp packaging, quiet negative space. Palette warm ivory, powder blue, deep navy, minute champagne accent. No decorative sparkles, no bokeh, no flowers, no jewelry, no extra text or badges, no people. Keep packaging proportions and cap construction faithful.",
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-1dbd0cb5-a60f-4a5c-8771-a64d84da0e54.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "file": "aureveil-mist-campaign.webp",
+      "prompt": "Use case: product-mockup. Create a portrait 4:5 luxury skincare editorial photograph of Aureveil Cloud Mist. Supplied image is exact packaging identity reference: tall cylindrical pale ice-blue translucent bottle, clear overcap enclosing white spray pump, narrow champagne-gold collar, navy lowercase serif \"aureveil\", small \"CLOUD MIST\" and \"120 ml\". Preserve identity and proportions. Bottle upright, full bottle visible at about 65% image height, on honed warm ivory limestone next to a translucent pale-blue glass slab. A few realistic tiny condensation droplets, soft directional morning sunlight and a delicate blue refracted shadow, no spray obscuring text. Match restrained premium studio beauty photography, warm ivory and powder-blue palette with tiny champagne accent, crisp packaging, quiet negative space. No bokeh, sparkles, flowers, jewelry, people, added copy or badges.",
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-3b76f1ef-6c17-4f42-93a6-d01b7cd3760c.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

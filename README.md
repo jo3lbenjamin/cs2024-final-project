@@ -114,11 +114,11 @@ All content remains visible without animation support. Reduced-motion preference
 
 Exact built-in image-generation prompts and original output paths are recorded in `planning/luxury-image-prompts.json`. Local responsive WebP exports are in `assets/images/aureveil-sun-campaign*.webp` and `assets/images/aureveil-mist-campaign*.webp`; the originals are retained. These are campaign illustrations, not product results or customer testimonials.
 
-The preview server accepts an optional PORT environment variable and defaults to 4173. Run `node scripts/check.mjs` after rebuilding. Local browser and Lighthouse checks cover the homepage on desktop/mobile; DOM integration checks cover navigation, quiz branches, galleries, reduced motion and the scroll story. Public hosting still needs to be configured by the repository owner.
+The preview server accepts an optional PORT environment variable and defaults to 4173. Run `node scripts/check.mjs` after rebuilding. Local browser and Lighthouse checks cover the homepage on desktop/mobile; DOM integration checks cover navigation, quiz branches, galleries, reduced motion and the scroll story. The public site is hosted at https://jo3lbenjamin.github.io/cs2024-final-project/.
 
 ## Expanded product guidance — 26 October 2026
 
-The site now contains 17 pages (15 main pages plus Privacy and Site Map). New pages are `skin-guide.html`, `how-to-use.html`, `christmas.html`, `what-to-expect.html` and `reviews.html`. The existing ingredients page was rebuilt as an interactive, illustrated ingredient-role guide. Expanded page templates, navigation and footer are in `scripts/expansion.mjs`, imported by the main build script. Existing page source remains in `scripts/build.mjs`; shared styles and browser interactions remain in the local assets.
+The site now contains 21 pages (19 main pages plus Privacy and Site Map). New pages are `skin-guide.html`, `how-to-use.html`, `christmas.html`, `what-to-expect.html` and `reviews.html`. The existing ingredients page was rebuilt as an interactive, illustrated ingredient-role guide. Expanded page templates, navigation and footer are in `scripts/expansion.mjs`, imported by the main build script. Existing page source remains in `scripts/build.mjs`; shared styles and browser interactions remain in the local assets.
 
 - Skin guide: texture-based starting points, ingredient references, sensitivity considerations and a link to AAD new-product testing guidance. Ingredient lists are dated references, not confirmation of the current Shopee batch. Product packaging remains the final reference.
 - Ingredient explorer: four selectable roles with a native SVG illustration and finite, replayable Web Animations. Buttons support click, Tab and arrow/Home/End keys. Reduced-motion preferences cancel animation and leave the information usable. The diagram illustrates roles; it is not a clinical simulation.
@@ -130,3 +130,11 @@ The site now contains 17 pages (15 main pages plus Privacy and Site Map). New pa
 New editorial/application images were generated with built-in image_gen. Original PNGs are retained locally; local WebP exports have 1200px, 600px and thumbnail variants. Exact prompts, reference roles and output paths are in `planning/expansion-image-prompts.json`; provenance is in `assets/sources.json`. Application photographs depict illustrative models, not customers or treatment results.
 
 New interactions process preferences only within the current page. No submission, storage, tracking or external JavaScript was introduced. The original Shopee purchase destinations remain unchanged.
+
+Buyer guidance now includes product-level facts and reviews, mobile purchase shortcuts, searchable FAQs, seller-question copying, a Buying Guide, Shipping and Returns pages. Source notes are in planning/buying-guide-sources.json.
+
+## Buyer confidence and welcome pricing update
+
+New pages: `offers.html`, `buying-guide.html`, `shipping.html` and `returns.html`. Product pages include decision facts, unit pricing, dated review excerpts, welcome prices, application/product-care questions and mobile purchase shortcuts. The FAQ has browser-only search; help includes optional clipboard copying of seller questions. The welcome calculator uses integer cents and supports the three products with or without first-purchase eligibility. Base prices remain S$39.90, S$59.90 and S$84.90; welcome prices are S$35.91, S$53.91 and S$76.41. The duo saves S$14.90 before the welcome saving.
+
+These are assignment frontend prices. The website does not issue a Shopee voucher, validate customer eligibility, create an order or change Shopee checkout. The user requested retaining the own-brand presentation. No new payment integration or on-site checkout has been introduced. Official research and generated image provenance are in `planning/buying-guide-sources.json` and `planning/buying-image-prompt.json`.

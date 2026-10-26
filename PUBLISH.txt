@@ -1,24 +1,24 @@
-AUREVEIL — PUBLISH WITH HTTPS
+AUREVEIL — GITHUB PAGES
 
-Recommended route: Cloudflare Pages Direct Upload.
-Shopify and a purchased domain are not needed for this static website.
+Public website:
+https://jo3lbenjamin.github.io/cs2024-final-project/
 
-1. Sign in to the Cloudflare dashboard with your account.
-2. Open Workers & Pages, then Create application > Get started > Drag and drop your files.
-3. Enter a project name, such as aureveil or an available variation.
-4. Upload aureveil-publish.zip and choose Deploy site.
-5. Cloudflare provides an HTTPS address ending in .pages.dev. Open that address to run Lighthouse.
+Repository:
+https://github.com/jo3lbenjamin/cs2024-final-project
 
-The ZIP includes the 17 website pages, active images, local fonts, CSS and JavaScript.
-It excludes research/planning documents, audit reports and unused manufacturer images.
-Its metadata is portable: it does not point to the earlier planned GitHub Pages address.
-Once your public URL is known, share it so canonical links, social-preview URLs and the sitemap can be finalized and Lighthouse can be checked on the published site.
+The site is a static HTML/CSS/JavaScript project published from main, repository root.
+Commit and push updated source files to main. Check GitHub Actions / Pages for the deployment result, then refresh the public site.
+A purchased domain, Shopify or an on-site payment backend is not required for the assignment.
 
-This ZIP is a snapshot of the current website. Regenerate it after further website edits before uploading again.
-Your existing Shopee purchase links are included. No cart or payment backend needs to be installed.
+Local testing:
+node scripts/server.mjs
+The server defaults to http://localhost:4173. PORT may be set to use another port.
 
-Official references:
-https://developers.cloudflare.com/pages/get-started/direct-upload/
-https://www.cloudflare.com/en-gb/developer-platform/products/pages/
+Regeneration and checks:
+node scripts/build.mjs
+node scripts/check.mjs
 
-GitHub Pages remains another technical HTTPS-hosting option; its rules restrict sites primarily facilitating commercial transactions. Keep the provided GitHub repository for source control if desired.
+Portable alternative upload:
+aureveil-publish.zip includes all 21 HTML pages, active local assets, fonts, scripts and styles. It excludes planning/source notes, reports and unused images. Host-specific canonical/Open Graph URL metadata is removed from that portable ZIP; regenerate it after edits.
+
+The offer calculator changes on-site display only. Purchases continue through the two external Shopee links.

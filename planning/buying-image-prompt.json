@@ -1,0 +1,11 @@
+{
+  "created": "2026-10-27",
+  "mode": "Built-in image_gen",
+  "prompt": "Use case: product-mockup. Asset type: editorial skincare texture photograph for Aureveil's product decision and buying guide pages. Create a premium horizontal 4:3 composition in soft natural studio light, ivory stone with pale pastel blue glass and subtle champagne-gold accents. The two attached images are packaging reference images only: preserve Aureveil's ivory Daily Sun Serum tube with pale-blue cap and gold divider, and pale-blue Cloud Mist bottle with clear cap and gold collar. Place both products naturally on the ivory surface with ample breathing room. In the foreground, show a small smooth ivory cream swipe on a small frosted glass dish near the sunscreen, and fine clear water droplets on a separate pale-blue glass dish near the mist, conveying two different skincare textures. Restrained, expensive beauty editorial, realistic materials, soft shadows and gentle gradients. Exact visible brand text: 'aureveil'. Smaller product text may read 'DAILY SUN SERUM', '50 ml', 'CLOUD MIST', '120 ml' matching the references. No other brand, no clinical text, no before/after, no stars, no test results, no badges, no discounts or added overlay copy. This is an illustrative texture still life, not a scientific product test. Keep both packages fully visible, no cropped edges. No transparent background.",
+  "references": [
+    "assets/images/aureveil-sun-serum.webp",
+    "assets/images/aureveil-cloudy-mist.webp"
+  ],
+  "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-d900e932-5014-44b8-88c0-208511404ddc.png",
+  "purpose": "Illustrative texture editorial; not a clinical result, efficacy test or customer photograph."
+}

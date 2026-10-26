@@ -97,3 +97,6 @@ Four Cloud Mist excerpts were transcribed from Shopee text pasted by the user. S
 
 ### Sun Serum excerpts added
 Four Sun Serum texture/finish excerpts from the supplied review attachment are now included alongside the four Cloud Mist excerpts. The homepage features two Sun Serum and one Cloud Mist review. Review groups preserve product attribution, original dates and exact wording; no numerical ratings or clinical claims are inferred.
+
+## Buyer confidence improvements — 27 October 2026
+See buying-guide-sources.json for official source links and evidence limits. The new guide pages explain the external order process; they do not invent shipping prices, refund guarantees, clinical tests, support contact details or product expiry dates.

@@ -1,0 +1,59 @@
+{
+  "updated": "2026-10-27",
+  "changes": "Product decision help, product care, buying guide, shipping, returns, searchable FAQs, seller questions and mobile purchase shortcuts.",
+  "sources": [
+    {
+      "url": "https://www.skin1004.com/products/hyalu-cica-water-fit-sun-serum-spf50-pa?country=GB",
+      "supports": "Reference SPF version: size, texture, ingredients and labelled protection. Water resistance and non-comedogenic status not established."
+    },
+    {
+      "url": "https://www.skin1004.com/products/skin1004-madagascar-centella-hyalu-cica-cloudy-mist",
+      "supports": "Mist size, hydration role, finish, ingredients and directions."
+    },
+    {
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+      "supports": "General sunscreen amount, timing and reapplication. Not a product-specific clinical test."
+    },
+    {
+      "url": "https://www.fda.gov/drugs/understanding-over-counter-medicines/sunscreen-how-help-protect-your-skin-sun",
+      "supports": "General storage and water-resistance distinction."
+    },
+    {
+      "url": "https://help.shopee.sg/portal/4/article/77152",
+      "supports": "Conditional returns, deadlines and reasons. No universal free/opened-item return or approval guarantee is asserted."
+    },
+    {
+      "url": "https://help.shopee.sg/portal/4/article/76506-Raising%20Return%20%26%20Refund%20request",
+      "supports": "Order-support route and damage/incorrect-item request guidance."
+    },
+    {
+      "url": "https://help.shopee.sg/portal/4/article/76632",
+      "supports": "Supporting evidence guidance."
+    },
+    {
+      "url": "https://help.shopee.sg/portal/4/article/76723",
+      "supports": "Payment methods; visitors use the methods available for their actual checkout."
+    }
+  ],
+  "limits": [
+    "No live inventory feed, fixed arrival date, fixed shipping fee, batch expiry, actual voucher code or real bundle listing has been invented.",
+    "No Aureveil email, address, reply-time promise or policy authority has been invented.",
+    "Copied questions are written only to the visitor clipboard after clicking; no new persistence or network requests."
+  ],
+  "brandModel": {
+    "instruction": "User requested retaining Aureveil own-brand presentation and treating prices and sales as brand-controlled for the assignment.",
+    "pricing": "Sun Serum S$39.90; Cloud Mist S$59.90; duo S$84.90 versus S$99.80 individual total; 10% first-purchase saving also applies to duo.",
+    "functionality": "The on-site calculator is functional and uses integer cents. No checkout, voucher creation, order processing or third-party payment integration is implemented. It cannot alter the seller checkout amount.",
+    "packaging": "Current Aureveil packaging presentation retained at the user’s explicit request; no public manufacturer naming added."
+  },
+  "dispatchVerification": {
+    "date": "2026-10-27",
+    "method": "Live browser-rendered Ships From field and seller description",
+    "origin": "Korea",
+    "listings": [
+      "https://shopee.sg/-BEST-SKIN1004-Madagascar-Centella-Hyalu-cica-Water-Fit-Sun-Serum-SPF50-PA-No-White-Cast-Long-lasting-Hydrating-Lightweight-for-Daily-Use-50ml-i.322645596.19703489951",
+      "https://shopee.sg/SKIN1004-Madagascar-Centella-Hyalu-Cica-Cloudy-Mist-120ml-(Cruelty-Free)-i.322645596.4294980449"
+    ],
+    "limits": "Address-specific shipping fees and arrival date are not established by this origin field."
+  }
+}

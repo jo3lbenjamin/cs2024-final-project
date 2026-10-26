@@ -403,6 +403,32 @@
         "height": 120,
         "bytes": 3156,
         "mimeType": "image/webp"
+      },
+      {
+        "file": "images/aureveil-textures.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-d900e932-5014-44b8-88c0-208511404ddc.png",
+        "fullPrompt": "../planning/buying-image-prompt.json",
+        "usage": "Active texture editorial on product and buying guides",
+        "purpose": "Illustrative still life, not a clinical result or customer review image.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 1200,
+        "height": 900,
+        "bytes": 79878,
+        "mimeType": "image/webp"
+      },
+      {
+        "file": "images/aureveil-textures-600.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-d900e932-5014-44b8-88c0-208511404ddc.png",
+        "fullPrompt": "../planning/buying-image-prompt.json",
+        "usage": "Active texture editorial on product and buying guides",
+        "purpose": "Illustrative still life, not a clinical result or customer review image.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 600,
+        "height": 450,
+        "bytes": 29134,
+        "mimeType": "image/webp"
       }
     ]
   },

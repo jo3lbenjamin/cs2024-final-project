@@ -214,3 +214,39 @@
     keyboardChoices(buttons, choose);
   }
 })();
+
+// Search local FAQs without storing or transmitting the search.
+(() => {
+ const panel=document.querySelector('.faq-search-panel');
+ if(panel){
+  const input=panel.querySelector('#faq-search'),clear=panel.querySelector('#faq-search-clear'),status=panel.querySelector('#faq-search-status');
+  const groups=[...document.querySelectorAll('[data-faq-group]')],empty=document.querySelector('.faq-empty');
+  const entries=groups.flatMap(group=>[...group.querySelectorAll('details')].map(detail=>({group,detail,text:detail.textContent.toLowerCase()})));
+  const filter=()=>{const query=input.value.trim().toLowerCase();let count=0;for(const item of entries){item.detail.hidden=!!query&&!item.text.includes(query);if(!item.detail.hidden)count++;}for(const group of groups){group.hidden=![...group.querySelectorAll('details')].some(detail=>!detail.hidden);const jump=document.querySelector('.faq-nav a[href="#'+group.id+'"]');if(jump)jump.hidden=group.hidden;}empty.hidden=count>0;status.textContent=query?count+' matching '+(count===1?'answer':'answers'):entries.length+' questions to explore';};
+  panel.hidden=false;input.addEventListener('input',filter);clear.addEventListener('click',()=>{input.value='';filter();input.focus();});filter();
+ }
+ const buttons=[...document.querySelectorAll('[data-copy-question]')],status=document.querySelector('.copy-question-status');
+ if(navigator.clipboard?.writeText){for(const button of buttons){button.hidden=false;button.addEventListener('click',async()=>{const text=document.getElementById(button.dataset.copyQuestion)?.textContent;if(!text)return;try{await navigator.clipboard.writeText(text);status.textContent='Question copied. Open your chosen listing and paste it into seller chat.';}catch{status.textContent='Please select and copy the question text above.';}});}}
+})();
+
+// The welcome calculator updates only on-site display. It does not submit an order or change Shopee checkout.
+(() => {
+ const offer=document.querySelector('.welcome-offer');if(!offer)return;
+ const controls=offer.querySelector('.offer-controls'),radios=[...offer.querySelectorAll('[name="offer-product"]')],first=offer.querySelector('#offer-first-purchase');
+ const single=offer.querySelector('#offer-purchase-single'),link=single.querySelector('a'),duo=offer.querySelector('#offer-purchase-duo');
+ const sunLink=document.querySelector('#duo-dialog .dialog-products>div:first-child a').href,mistLink=document.querySelector('#duo-dialog .dialog-products>div:last-child a').href;
+ const format=cents=>'S$'+(cents/100).toFixed(2);
+ const update=()=>{
+  const selected=radios.find(radio=>radio.checked),kind=selected.value,base=Number(selected.dataset.price),individual=Number(selected.dataset.individual),discount=first.checked?Math.round(base/10):0,total=base-discount;
+  const name=kind==='sun'?'Daily Sun Serum':kind==='mist'?'Cloud Mist':'Protect + Refresh Duo';
+  offer.querySelector('#offer-result-title').textContent=name;offer.querySelector('#offer-size').textContent=kind==='sun'?'50ml':kind==='mist'?'120ml':'Daily Sun Serum 50ml + Cloud Mist 120ml';
+  offer.querySelector('#offer-base').textContent=format(base);offer.querySelector('#offer-discount').textContent='−'+format(discount);offer.querySelector('#offer-total').textContent=format(total);
+  offer.querySelector('#offer-pairing-row').hidden=kind!=='duo';offer.querySelector('#offer-pairing').textContent=format(individual-base);
+  offer.querySelector('#offer-savings').textContent=individual>total?'You save '+format(individual-total)+'.':'Your everyday essential, at its regular price.';
+  single.hidden=kind==='duo';duo.hidden=kind!=='duo';
+  if(kind!=='duo'){link.href=kind==='sun'?sunLink:mistLink;link.innerHTML='View '+name+' on Shopee <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10" stroke="currentColor" stroke-width="1.5"/></svg><span class="sr-only"> (opens in a new tab)</span>';}
+  offer.querySelector('#offer-result-status').textContent=name+': '+format(total)+', '+(first.checked?'including the first-purchase saving':'without the first-purchase saving')+'. Delivery excluded.';
+ };
+ const fromHash=()=>{const requested=location.hash.slice(1);const matched=radios.find(radio=>radio.value===requested);if(matched)matched.checked=true;update();};
+ controls.hidden=false;offer.classList.add('offer-enhanced');radios.forEach(radio=>radio.addEventListener('change',update));first.addEventListener('change',update);window.addEventListener('hashchange',fromHash);fromHash();
+})();

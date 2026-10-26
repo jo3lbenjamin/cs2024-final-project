@@ -429,6 +429,50 @@
         "height": 450,
         "bytes": 29134,
         "mimeType": "image/webp"
+      },
+      {
+        "file": "images/aureveil-welcome-kit.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-384eeea5-c816-473c-a89a-2782cd6916a5.png",
+        "fullPrompt": "../planning/welcome-kit-image-prompts.json",
+        "purpose": "Assignment brand gift/sample illustration; not customer evidence.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 1200,
+        "height": 900,
+        "bytes": 92744
+      },
+      {
+        "file": "images/aureveil-welcome-kit-600.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-384eeea5-c816-473c-a89a-2782cd6916a5.png",
+        "fullPrompt": "../planning/welcome-kit-image-prompts.json",
+        "purpose": "Assignment brand gift/sample illustration; not customer evidence.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 600,
+        "height": 450,
+        "bytes": 26924
+      },
+      {
+        "file": "images/aureveil-discovery-samples.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-96f27039-720b-4735-978f-02b4b11432a5.png",
+        "fullPrompt": "../planning/welcome-kit-image-prompts.json",
+        "purpose": "Assignment brand gift/sample illustration; not customer evidence.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 1200,
+        "height": 900,
+        "bytes": 90756
+      },
+      {
+        "file": "images/aureveil-discovery-samples-600.webp",
+        "source": "Built-in OpenAI image_gen",
+        "original": "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-96f27039-720b-4735-978f-02b4b11432a5.png",
+        "fullPrompt": "../planning/welcome-kit-image-prompts.json",
+        "purpose": "Assignment brand gift/sample illustration; not customer evidence.",
+        "processing": "Resized and WebP encoded; no semantic post-processing.",
+        "width": 600,
+        "height": 450,
+        "bytes": 30028
       }
     ]
   },
@@ -450,5 +494,13 @@
       }
     ],
     "notes": "Latin subset WOFF2 fonts from official Google Fonts CSS; use font-weight range 400 700 for Manrope and 400 600 for Cormorant Garamond."
+  },
+  "pdfPreviews": {
+    "files": [
+      "aureveil-guide-preview.webp",
+      "aureveil-card-preview.webp",
+      "aureveil-tracker-preview.webp"
+    ],
+    "source": "Rendered first pages of original Aureveil PDFs in assets/downloads; no third-party imagery."
   }
 }

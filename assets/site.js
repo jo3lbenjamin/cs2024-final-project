@@ -250,3 +250,40 @@
  const fromHash=()=>{const requested=location.hash.slice(1);const matched=radios.find(radio=>radio.value===requested);if(matched)matched.checked=true;update();};
  controls.hidden=false;offer.classList.add('offer-enhanced');radios.forEach(radio=>radio.addEventListener('change',update));first.addEventListener('change',update);window.addEventListener('hashchange',fromHash);fromHash();
 })();
+// Complimentary-kit choices stay in this page; copying a request does not send an order.
+(() => {
+ const core=['Two Daily Sun Serum discovery sachets','Printed quick-start ritual card','Daily Skin Guide PDF','Seven-day tracker and optional calendar reminder'];
+ const names={sun:['Daily Sun Serum','50ml'],mist:['Cloud Mist','120ml'],duo:['Protect + Refresh Duo','50ml + 120ml']};
+ const links=[...document.querySelectorAll('#duo-dialog .dialog-products a')];
+ for(const builder of document.querySelectorAll('[data-kit-builder]')){
+  const choice=builder.querySelector('.kit-product-choice'),wrapControl=builder.querySelector('.kit-wrap-choice'),wrap=builder.querySelector('[data-kit-wrap]');
+  if(choice)choice.hidden=false;
+  builder.querySelector('[data-kit-items]').setAttribute('aria-live','polite');
+  const update=()=>{
+   const kind=(builder.dataset.kitContext==='offer'?document.querySelector('[name="offer-product"]:checked')?.value:builder.querySelector('[name="kit-product"]:checked')?.value)||builder.dataset.kitKind;
+   wrapControl.hidden=kind!=='duo';wrap.disabled=kind!=='duo';if(kind!=='duo')wrap.checked=false;
+   const gifts=[...core,...(kind==='duo'?['Aureveil Everyday Pouch','Slim pocket mirror',...(wrap.checked?['Gift bag, tissue and blank message card']:[])]:[])];
+   const list=builder.querySelector('[data-kit-items]');list.replaceChildren(...gifts.map(gift=>{const item=document.createElement('li');item.textContent=gift;return item;}));
+   builder.querySelector('[data-kit-request]').textContent='My selection is '+names[kind][0]+' ('+names[kind][1]+'). Please include the complimentary discovery sachets and ritual card'+(kind==='duo'?', Everyday Pouch and pocket mirror':'')+(kind==='duo'&&wrap.checked?', plus the complimentary gift bag, tissue and blank message card':'')+'. Please confirm these details with my order.';
+   const single=builder.querySelector('[data-kit-shop-single]'),duo=builder.querySelector('[data-kit-shop-duo]');if(single&&duo){single.hidden=kind==='duo';duo.hidden=kind!=='duo';if(kind!=='duo'){const a=single.querySelector('a');a.href=links[kind==='sun'?0:1].href;a.firstChild.textContent='Open '+names[kind][0]+' listing ';}}
+   const summary=document.querySelector('#offer-kit-summary');if(summary)summary.textContent=kind==='duo'?'Discovery extras, Everyday Pouch and pocket mirror included.':'Complimentary discovery samples, ritual card and digital resources included.';
+  };
+  builder.querySelectorAll('[name="kit-product"],[data-kit-wrap]').forEach(control=>control.addEventListener('change',update));
+  if(builder.dataset.kitContext==='offer'){document.querySelectorAll('[name="offer-product"]').forEach(control=>control.addEventListener('change',update));window.addEventListener('hashchange',update);}
+  update();
+ }
+ // Export an optional calendar file locally. No calendar is connected or modified automatically.
+ const form=document.querySelector('#ritual-calendar-form');if(!form)return;
+ const date=form.querySelector('#ritual-start'),time=form.querySelector('#ritual-time'),days=form.querySelector('#ritual-days'),status=form.querySelector('#ritual-calendar-status');
+ const pad=value=>String(value).padStart(2,'0'),ymd=value=>value.getFullYear()+'-'+pad(value.getMonth()+1)+'-'+pad(value.getDate());
+ const today=new Date(),tomorrow=new Date(today.getFullYear(),today.getMonth(),today.getDate()+1);date.min=ymd(today);date.value=ymd(tomorrow);form.hidden=false;
+ form.addEventListener('submit',event=>{
+  event.preventDefault();if(!form.reportValidity())return;
+  const count=Number(days.value);if(![7,14,30].includes(count)||!/^[0-9]{4}-[0-9]{2}-[0-9]{2}$/.test(date.value)||!/^[0-9]{2}:[0-9]{2}$/.test(time.value)){status.textContent='Choose a valid date, time and reminder duration.';return;}
+  const start=date.value.replaceAll('-','')+'T'+time.value.replace(':','')+'00',stamp=new Date().toISOString().replace(/[-:]/g,'').replace(/\.[0-9]{3}Z$/,'Z');
+  const uid=(crypto.randomUUID?crypto.randomUUID():Date.now().toString(36))+'@aureveil.example';
+  const lines=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Aureveil//Daily Ritual//EN','CALSCALE:GREGORIAN','METHOD:PUBLISH','BEGIN:VEVENT','UID:'+uid,'DTSTAMP:'+stamp,'DTSTART:'+start,'DURATION:PT5M','RRULE:FREQ=DAILY;COUNT='+count,'SUMMARY:A little care - your Aureveil daily ritual','DESCRIPTION:Make room for your morning skincare. Follow your product label.','URL:https://jo3lbenjamin.github.io/cs2024-final-project/how-to-use.html','BEGIN:VALARM','ACTION:DISPLAY','TRIGGER:PT0M','DESCRIPTION:Your daily skincare ritual','END:VALARM','END:VEVENT','END:VCALENDAR',''];
+  const blob=new Blob([lines.join('\r\n')],{type:'text/calendar;charset=utf-8'}),url=URL.createObjectURL(blob),a=document.createElement('a');a.href=url;a.download='aureveil-daily-ritual.ics';a.hidden=true;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000);
+  status.textContent='Calendar file created for '+count+' daily reminders at '+time.value+'. Import it only if you want to add the reminders.';
+ });
+})();

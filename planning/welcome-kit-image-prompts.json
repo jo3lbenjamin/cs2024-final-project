@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-27",
+  "mode": "Built-in image_gen",
+  "prompts": [
+    "Use case: product-mockup. Create a photorealistic premium Aureveil skincare editorial in a horizontal 4:3 composition. The attached images are packaging references: preserve the ivory Daily Sun Serum 50 ml tube with pale-blue cap and thin gold divider, and the pale-blue Cloud Mist 120 ml bottle with clear cap and gold collar. Brand text must read exactly 'aureveil' in elegant navy serif lettering. Ivory, pastel blue, champagne-gold palette, natural diffused studio light, soft shadows, expensive clean materials. No other brand, no clinical results, no ratings, no watermarks, no offer badges or added overlay text. Show only the objects specified. Arrange an unboxing still life showing the complete Aureveil Welcome Kit on ivory stone: both full-size products; two small sealed ivory/pale-blue foil sample sachets labelled 'aureveil' and 'DISCOVERY SAMPLE'; one elegant pastel-blue zip pouch with a subtle small gold Aureveil wordmark; one slim round champagne-gold pocket mirror closed with the Aureveil wordmark on its lid; one ivory printed ritual card whose only legible header is 'YOUR DAILY RITUAL'; one pale-blue paper gift bag with simple cord handles and small Aureveil wordmark, folded ivory tissue and one blank ivory message card. Curate the arrangement with breathing room, each item clearly visible and coherent scale, no excessive props. This is an illustrative brand kit visual, not customer evidence.",
+    "Use case: product-mockup. Create a photorealistic premium Aureveil skincare editorial in a horizontal 4:3 composition. The attached images are packaging references: preserve the ivory Daily Sun Serum 50 ml tube with pale-blue cap and thin gold divider, and the pale-blue Cloud Mist 120 ml bottle with clear cap and gold collar. Brand text must read exactly 'aureveil' in elegant navy serif lettering. Ivory, pastel blue, champagne-gold palette, natural diffused studio light, soft shadows, expensive clean materials. No other brand, no clinical results, no ratings, no watermarks, no offer badges or added overlay text. Show only the objects specified. Make a focused discovery-sample still life: the full-size Aureveil sunscreen tube stands unopened beside exactly two sealed ivory and pale-blue foil sachets, their only text 'aureveil' and 'DISCOVERY SAMPLE'. A small ivory ritual card with only the header 'YOUR DAILY RITUAL' rests nearby, with a closed pale-blue product box behind the tube. Keep the Mist bottle out of this composition. A hand of an adult woman is gently placing a sealed sachet beside the still-unopened tube; anatomically natural hand. Calm tactile luxury, helpful view of what comes with a purchase. No opened creams, no before/after or skin-result demonstration."
+  ],
+  "references": [
+    "assets/images/aureveil-sun-serum.webp",
+    "assets/images/aureveil-cloudy-mist.webp"
+  ],
+  "originals": [
+    "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-384eeea5-c816-473c-a89a-2782cd6916a5.png",
+    "C:/Users/mervy/.codex/generated_images/01a1615f-b892-7ac1-9e98-5e68c3c768be/exec-96f27039-720b-4735-978f-02b4b11432a5.png"
+  ],
+  "purpose": "Original brand illustrations for assignment welcome-gift presentation; not customer photos or clinical evidence."
+}

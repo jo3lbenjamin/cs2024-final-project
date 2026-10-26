@@ -1,0 +1,49 @@
+{
+  "date": "2026-10-27",
+  "authorization": "User approved all proposed complimentary gifts and the 14-day sample-first policy for the assignment.",
+  "tiers": {
+    "everyPurchase": [
+      "Two Daily Sun Serum discovery sachets",
+      "Printed ritual card",
+      "Digital guide, tracker and optional calendar export"
+    ],
+    "duoAdds": [
+      "Everyday Pouch",
+      "Pocket mirror"
+    ],
+    "duoGiftAddsOnRequest": [
+      "Gift bag",
+      "Tissue",
+      "Blank message card"
+    ]
+  },
+  "returnPolicy": {
+    "requestWindow": "14 days from delivery",
+    "fullSizeCondition": "Unopened, unused, sealed, original packaging",
+    "returnPostage": "Customer pays for change of mind",
+    "originalDelivery": "Excluded from product refund",
+    "gifts": "Reusable gifts and unused samples returned; used discovery sachets exempt",
+    "route": "Request seller instructions before posting; original-order refund route"
+  },
+  "sources": [
+    {
+      "url": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products/",
+      "usedFor": "Introducing a product with a small-area test; sample does not establish suitability."
+    },
+    {
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+      "usedFor": "General application and reapplication guidance in the complimentary PDFs."
+    }
+  ],
+  "implementationLimits": [
+    "Brand gift and return terms are assignment frontend policies, not an actual seller-side fulfilment agreement or inventory integration.",
+    "Copying a request does not send it. The calendar builder downloads an ICS file; it does not connect to a calendar account.",
+    "No new personal-data collection, storage, analytics, checkout, refund backend or email service."
+  ],
+  "pdfs": [
+    "assets/downloads/aureveil-daily-skin-guide.pdf",
+    "assets/downloads/aureveil-ritual-card.pdf",
+    "assets/downloads/aureveil-seven-day-tracker.pdf"
+  ],
+  "visuals": "See welcome-kit-image-prompts.json for exact prompts, mode and originals."
+}

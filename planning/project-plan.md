@@ -251,3 +251,11 @@ Reviews use external Shopee feedback links because no authentic review text for 
 ## Buyer-confidence update — 27 October 2026
 
 Expanded to 21 pages with Offers, Buying Guide, Shipping and Returns. Product-page summaries, dated review excerpts, mobile purchase shortcuts, care/usage answers, searchable FAQs, seller-question copying and an original texture editorial address the customer-question audit. The user requested brand-controlled assignment pricing and unchanged Aureveil packaging presentation. A functional browser-only welcome-price calculator applies 10% to the individual or duo price, including the existing duo saving. External checkout is not modified. No actual inventory, batch expiry, fixed delivery charge, Aureveil email or clinical efficacy result has been invented. Dispatch origin was checked on both seller listings.
+
+## Complimentary care and welcome kit
+
+The site now contains 22 pages (20 main pages plus Privacy and Site Map). Every order receives two Daily Sun Serum discovery sachets, a printed ritual card and digital resources. Duo orders add a pouch and pocket mirror; gift packaging is optional. Gifts have no invented retail valuations or scarcity claims.
+
+A product-aware gift selector and copyable request lower uncertainty. Original six-page Daily Skin Guide, one-page A6 ritual card and A4 seven-day habit tracker are downloadable. An optional local `.ics` exporter creates 7, 14 or 30 reminders at the visitor-selected local time, without connecting a calendar account.
+
+The 14-day sample-first policy is approved for this assignment, with unopened full-size eligibility, customer-paid return postage and reusable-gift return conditions. It is not an integration with the linked seller. Samples do not prove allergy tolerance or promise visible changes after seven days.

@@ -1,3 +1,4 @@
+import {applyWelcomeKit} from './welcome-kit.mjs';
 import {applyOfferImprovements} from './offers.mjs';
 import {applyBuyingImprovements} from './buying.mjs';
 import {reviewExcerpts} from './reviews.mjs';
@@ -87,9 +88,10 @@ ${productGuideLinks(helpers,'mist')}
 pages.push(...createExpansionPages(helpers));
 applyBuyingImprovements(pages,helpers);
 applyOfferImprovements(pages,helpers);
+applyWelcomeKit(pages,helpers);
 const sitemapPage=pages.find(page=>page.file==='accessibility.html');
 const originalSitemap=sitemapPage.content;
-const sitemapNames={'index.html':'Home','sun-serum.html':'Daily Sun Serum','cloudy-mist.html':'Cloud Mist','duo.html':'Protect + Refresh Duo','ingredients.html':'Interactive ingredients guide','routine.html':'Daily routine finder','journal.html':'The Aureveil journal','about.html':'Our story','faq.html':'Frequently asked questions','contact.html':'Help and contact','privacy.html':'Privacy notice','skin-guide.html':'Skin suitability and ingredient lists','how-to-use.html':'How to use','christmas.html':'Christmas gifting','what-to-expect.html':'What to expect','reviews.html':'Customer reviews','buying-guide.html':'Buying guide and product care','shipping.html':'Shipping and delivery','returns.html':'Returns and refunds','offers.html':'Welcome offer and prices'};
+const sitemapNames={'index.html':'Home','sun-serum.html':'Daily Sun Serum','cloudy-mist.html':'Cloud Mist','duo.html':'Protect + Refresh Duo','ingredients.html':'Interactive ingredients guide','routine.html':'Daily routine finder','journal.html':'The Aureveil journal','about.html':'Our story','faq.html':'Frequently asked questions','contact.html':'Help and contact','privacy.html':'Privacy notice','skin-guide.html':'Skin suitability and ingredient lists','how-to-use.html':'How to use','christmas.html':'Christmas gifting','what-to-expect.html':'What to expect','reviews.html':'Customer reviews','buying-guide.html':'Buying guide and product care','shipping.html':'Shipping and delivery','returns.html':'Returns and refunds','offers.html':'Welcome offer and prices','welcome-kit.html':'Complimentary gifts, samples and guides'};
 sitemapPage.content=()=>originalSitemap().replace(/<ul class="site-map">[\s\S]*?<\/ul>/,'<ul class="site-map">'+pages.filter(page=>page.file!=='accessibility.html').map(page=>'<li><a href="'+page.file+'">'+sitemapNames[page.file]+'</a></li>').join('')+'</ul>');
 function header(active){return expansionHeader(active,helpers);}
 function footer(){return expansionFooter();}

@@ -91,3 +91,9 @@ Reopened the official international SPF50+ PA++++ page (country=GB) and official
 - No product-specific evidence of seven-day whitening was established. No clinical results or customer quotations were invented. Reviews page links directly to the original user-supplied product listings and explains where to find reviews.
 
 All creative brand/gift copy is original. The SK-II screenshot supplied by the user was layout inspiration only; no SK-II photography, claims, testimonials or copy were reused. Original generation prompts and references are recorded in expansion-image-prompts.json.
+
+## Customer review excerpts — 26 October 2026
+Four Cloud Mist excerpts were transcribed from Shopee text pasted by the user. See review-sources.json for exact excerpts, names, dates and verification limits. Original wording and masked names are retained. No ratings, customer portraits, review counts, verified-buyer badges or SPF-specific quotes were inferred.
+
+### Sun Serum excerpts added
+Four Sun Serum texture/finish excerpts from the supplied review attachment are now included alongside the four Cloud Mist excerpts. The homepage features two Sun Serum and one Cloud Mist review. Review groups preserve product attribution, original dates and exact wording; no numerical ratings or clinical claims are inferred.

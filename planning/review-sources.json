@@ -1,0 +1,59 @@
+{
+  "received": "2026-10-26",
+  "source": "User-pasted Shopee review text in this conversation",
+  "listing": "https://shopee.sg/SKIN1004-Madagascar-Centella-Hyalu-Cica-Cloudy-Mist-120ml-%28Cruelty-Free%29-i.322645596.4294980449",
+  "originalProduct": "SKIN1004 Madagascar Centella Hyalu-Cica Cloudy Mist 120ml",
+  "verification": "Transcribed from the supplied text; not independently verified on Shopee because live review access failed. No verification badge, star rating, aggregate score or review count is inferred.",
+  "selection": "Four mist-specific excerpts. The suncream reference and the general brand/purchase review are excluded because they are not clear mist-specific testimonials. No reviewer photos or videos are republished. Editorial headings are separate from the exact quotations.",
+  "reviews": [
+    {
+      "name": "b*****y",
+      "dateTime": "2024-04-22 19:46",
+      "quote": "very convenient and clean way to moisturise my face through the day."
+    },
+    {
+      "name": "s*****e",
+      "dateTime": "2025-05-28 15:38",
+      "quote": "Mist is very fine, each spray amount is perfect and ample (very satisfying)."
+    },
+    {
+      "name": "pinqielee",
+      "dateTime": "2024-08-17 21:59",
+      "quote": "I use this at night time to give extra hydration to my skin, especially when u sleep with Aircon on."
+    },
+    {
+      "name": "joycengyl",
+      "dateTime": "2026-05-30 19:41",
+      "quote": "The mist works as a toner or hydration mist."
+    }
+  ],
+  "sunSerum": {
+    "received": "2026-10-26",
+    "source": "User attachment: Pasted text.txt, 4fd4ca0b-9f2d-4970-86ea-b6f33cba78d0",
+    "originalProduct": "SKIN1004 Madagascar Centella Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++ 50ml",
+    "listing": "https://shopee.sg/-BEST-SKIN1004-Madagascar-Centella-Hyalu-cica-Water-Fit-Sun-Serum-SPF50-PA-No-White-Cast-Long-lasting-Hydrating-Lightweight-for-Daily-Use-50ml-i.322645596.19703489951",
+    "selection": "Four sunscreen-specific texture and finish excerpts; no medical outcome, all-skin-type claim, seller reply, helpful count, unrelated recommendation or promotion reproduced. No star ratings inferred.",
+    "reviews": [
+      {
+        "name": "traveller2021",
+        "dateTime": "2023-02-12 22:57",
+        "quote": "Easily absorbed & leaves my skin hydrated with dewy finish."
+      },
+      {
+        "name": "w*****_",
+        "dateTime": "2022-06-15 16:31",
+        "quote": "Super nice lightweight sunscreen!! Rubs in effortlessly and doesn't leave any white cast, not too greasy as well!"
+      },
+      {
+        "name": "karengadsabout",
+        "dateTime": "2022-11-03 11:25",
+        "quote": "I'm happy with this lightweight suncare with no whitecast."
+      },
+      {
+        "name": "w*****6",
+        "dateTime": "2022-08-15 20:51",
+        "quote": "Moisturising texture but no white cast, worth trying!"
+      }
+    ]
+  }
+}

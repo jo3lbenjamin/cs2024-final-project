@@ -15,6 +15,15 @@ for(const file of files){
   if((html.match(/<h1[\s>]/g)||[]).length!==1)pageIssues.push('Expected one H1');
   if(!html.includes('lang="en-SG"'))pageIssues.push('Missing document language');
   for(const image of html.matchAll(/<img\b([^>]+)>/g)){if(!/\balt="[^"]*"/.test(image[1]))pageIssues.push('Image without alt text');if(!/\bwidth="\d+"/.test(image[1])||!/\bheight="\d+"/.test(image[1]))pageIssues.push('Image without size attributes');}
+  for(const sourceSet of html.matchAll(/\bsrcset="([^"]+)"/g)){
+    for(const candidate of sourceSet[1].split(',')){
+      const source=candidate.trim().split(/\s+/)[0];
+      if(!/^(https?:|data:)/.test(source)){try{await access(path.join(root,source));}catch{pageIssues.push(`Missing responsive image: ${source}`);}}
+    }
+  }
+  for(const control of html.matchAll(/\baria-controls="([^"]+)"/g)){
+    for(const targetId of control[1].split(/\s+/))if(!html.includes(`id="${targetId}"`))pageIssues.push(`Missing control target: ${targetId}`);
+  }
   for(const match of html.matchAll(/\b(href|src)="([^"]+)"/g)){
     const value=match[2]; if(/^(https?:|mailto:|data:)/.test(value))continue;
     const [raw,fragment]=value.split('#');

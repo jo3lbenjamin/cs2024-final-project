@@ -9,7 +9,7 @@ Shopify and a purchased domain are not needed for this static website.
 4. Upload aureveil-publish.zip and choose Deploy site.
 5. Cloudflare provides an HTTPS address ending in .pages.dev. Open that address to run Lighthouse.
 
-The ZIP includes the 12 website pages, active images, local fonts, CSS and JavaScript.
+The ZIP includes the 17 website pages, active images, local fonts, CSS and JavaScript.
 It excludes research/planning documents, audit reports and unused manufacturer images.
 Its metadata is portable: it does not point to the earlier planned GitHub Pages address.
 Once your public URL is known, share it so canonical links, social-preview URLs and the sitemap can be finalized and Lighthouse can be checked on the published site.

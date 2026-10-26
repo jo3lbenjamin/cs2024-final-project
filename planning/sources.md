@@ -81,3 +81,13 @@ The website must not cite earlier conversation sales totals as verified research
 ## Original Aureveil packaging imagery
 
 Five website assets were generated with the built-in image_gen tool on 22 October 2026: two transparent packshots and three editorial product scenes. The editorial scenes use the newly generated packshots as references to maintain the same Aureveil packaging. These are visual mockups, not manufacturer-approved replacement packaging or photos of the goods received through Shopee. Exact prompts, references and output paths are in `aureveil-image-prompts.json`; asset dimensions and processing are in `assets/sources.json`. The earlier official SKIN1004 image files are retained as archived source references and are no longer used in the page images.
+
+## Expansion verification — 26 October 2026
+
+Reopened the official international SPF50+ PA++++ page (country=GB) and official Cloudy Mist page listed above. Recorded the complete published INCI reference lists and kept the exact region/formula distinction. References are not confirmation of the current Singapore Shopee batch. Sensitivity copy identifies ingredient names to review if already avoided; it does not infer an individual's allergy from a botanical or food-related name.
+
+- AAD, How to test skin care products: https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products/ — supports careful small-area introduction over 7–10 days and the possibility of irritation despite a skin-type description.
+- AAD, How to apply sunscreen: https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen — supports application before outdoor exposure, coverage and reapplication alongside other protective measures. Product-label directions remain applicable.
+- No product-specific evidence of seven-day whitening was established. No clinical results or customer quotations were invented. Reviews page links directly to the original user-supplied product listings and explains where to find reviews.
+
+All creative brand/gift copy is original. The SK-II screenshot supplied by the user was layout inspiration only; no SK-II photography, claims, testimonials or copy were reused. Original generation prompts and references are recorded in expansion-image-prompts.json.

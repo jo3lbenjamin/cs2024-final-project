@@ -16,7 +16,7 @@ The generated HTML, CSS, JavaScript, images and fonts work without npm dependenc
 
 ## What is included
 
-- Ten main pages: Home, Daily Sun Serum, Cloud Mist, Duo, Ingredients, Routine Finder, Journal, Our Story, FAQ, and Help/Contact.
+- Fifteen main pages: Home, Daily Sun Serum, Cloud Mist, Duo, Ingredients, Routine Finder, Journal, Our Story, FAQ, Help/Contact, Skin Guide, How to Use, Christmas Gifting, What to Expect and Customer Reviews.
 - Privacy notice and accessibility/site-map pages in addition to the ten main pages.
 - Original Aureveil identity, copy, editorial layout and pastel-blue/champagne-gold styling.
 - Audience: working adults in Singapore in their late twenties and early thirties (approximately 27–34).
@@ -115,3 +115,18 @@ All content remains visible without animation support. Reduced-motion preference
 Exact built-in image-generation prompts and original output paths are recorded in `planning/luxury-image-prompts.json`. Local responsive WebP exports are in `assets/images/aureveil-sun-campaign*.webp` and `assets/images/aureveil-mist-campaign*.webp`; the originals are retained. These are campaign illustrations, not product results or customer testimonials.
 
 The preview server accepts an optional PORT environment variable and defaults to 4173. Run `node scripts/check.mjs` after rebuilding. Local browser and Lighthouse checks cover the homepage on desktop/mobile; DOM integration checks cover navigation, quiz branches, galleries, reduced motion and the scroll story. Public hosting still needs to be configured by the repository owner.
+
+## Expanded product guidance — 26 October 2026
+
+The site now contains 17 pages (15 main pages plus Privacy and Site Map). New pages are `skin-guide.html`, `how-to-use.html`, `christmas.html`, `what-to-expect.html` and `reviews.html`. The existing ingredients page was rebuilt as an interactive, illustrated ingredient-role guide. Expanded page templates, navigation and footer are in `scripts/expansion.mjs`, imported by the main build script. Existing page source remains in `scripts/build.mjs`; shared styles and browser interactions remain in the local assets.
+
+- Skin guide: texture-based starting points, ingredient references, sensitivity considerations and a link to AAD new-product testing guidance. Ingredient lists are dated references, not confirmation of the current Shopee batch. Product packaging remains the final reference.
+- Ingredient explorer: four selectable roles with a native SVG illustration and finite, replayable Web Animations. Buttons support click, Tab and arrow/Home/End keys. Reduced-motion preferences cancel animation and leave the information usable. The diagram illustrates roles; it is not a clinical simulation.
+- Application guide: original application photographs and numbered steps for sunscreen and mist, with AAD sunscreen guidance.
+- Christmas edit: a seasonal gift campaign with three budget anchors and existing product prices. No additional discount, delivery deadline, gift-wrap inclusion or seller promotion was invented.
+- What to expect: texture, finish, routine-building and realistic expectations. No seven-day whitening or anti-ageing promise, before/after result or clinical statistic was added.
+- Customer reviews: clear links to actual buyer feedback on the supplied Shopee listings. No reviews, stars, customer identities or review schema were fabricated or copied.
+
+New editorial/application images were generated with built-in image_gen. Original PNGs are retained locally; local WebP exports have 1200px, 600px and thumbnail variants. Exact prompts, reference roles and output paths are in `planning/expansion-image-prompts.json`; provenance is in `assets/sources.json`. Application photographs depict illustrative models, not customers or treatment results.
+
+New interactions process preferences only within the current page. No submission, storage, tracking or external JavaScript was introduced. The original Shopee purchase destinations remain unchanged.

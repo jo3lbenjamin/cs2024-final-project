@@ -241,3 +241,9 @@ The user approved the complete luxury design/motion pass. Retained the original 
 Implemented image reveals, staggered entrances, hover/focus product-photo swaps, gallery crossfades, gold link underlines, a scrolled glass header, native page transitions and a three-step sticky product story. Mobile and reduced-motion layouts use normal stacked storytelling. Existing menus, FAQ disclosures, modal and preference-only routine form remain. Custom CSS and native browser features keep the established layout and eliminate framework/CDN dependencies. No third-party video was supplied or embedded.
 
 Responsive image files and original generation prompts are retained with provenance. All statements about product benefits and use are existing verified copy; no testimonials, clinical statistics or certifications were invented for the premium presentation.
+
+## Product education and gifting expansion — 26 October 2026
+
+The user approved all seven adapted suggestions and explicitly allowed more than nine pages. Expanded to 17 pages with skin suitability/ingredient references, illustrated usage, Christmas gifting, realistic expectations and review destinations, plus an interactive ingredient guide. Refined information architecture into The daily edit and Skin & ritual dropdowns, gift and story links, and a linked product-guide ribbon. All pages are included in the HTML site map and generated XML sitemap.
+
+Reviews use external Shopee feedback links because no authentic review text for Aureveil was supplied. The results page uses a seven-day habit-building guide instead of an unsupported whitening claim. Skin suitability is preference guidance with sensitivity and testing information; it does not guarantee allergy safety. Christmas marketing uses the existing prices and pairing, without a new discount or fulfilment promise. Four new original campaign/application images support the content.

@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-26",
+  "mode": "Built-in image_gen",
+  "assets": [
+    {
+      "name": "aureveil-christmas",
+      "prompt": "Create an original luxury skincare Christmas campaign photograph, landscape 4:3 composition. Supplied images are exact product identity references: one white Aureveil Daily Sun Serum 50 ml tube with pale blue base/cap and thin gold band, one pale-blue Aureveil Cloud Mist 120 ml spray bottle with clear cap and gold collar. Preserve their exact lowercase navy serif \"aureveil\" wordmarks and small label lettering, shapes and relative scale. Arrange both products on warm ivory stone, with loose pale-blue silk ribbon, folded ivory gift paper and a tiny softly lit evergreen sprig off to one edge. No branded box, no extra products, no promise of included wrapping. Powder-blue glass, soft champagne reflections, realistic material detail, tranquil natural studio light matching a high-end beauty campaign. Products fully visible, generous negative space. No added copy, sale badges, prices, watermarks or glitter.",
+      "references": [
+        "C:/Users/mervy/OneDrive/Desktop/cs2024-final-project/assets/images/aureveil-sun-serum.webp",
+        "C:/Users/mervy/OneDrive/Desktop/cs2024-final-project/assets/images/aureveil-cloudy-mist.webp"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-e5aed9c8-afa3-49c9-bd00-7a5f650d676d.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "name": "aureveil-sun-botanicals",
+      "prompt": "Create a photorealistic luxury skincare still-life, landscape 4:3. Reference image supplies exact packaging identity: preserve the white Aureveil Daily Sun Serum 50 ml tube, pale-blue cap/base, fine champagne band and navy lowercase serif \"aureveil\" with the small DAILY SUN SERUM and 50 ml lettering. A new overhead/three-quarter composition: tube resting diagonally on honed ivory stone, a small realistic white serum-cream swatch, one green Centella leaf and clear water droplets on a powder-blue glass tile nearby. Calm directional morning light, natural textures, sharp readable packaging, restrained ivory / pale blue / champagne palette. Editorial ingredient-inspired photograph; no molecular diagrams, ingredient percentages, clinical claims, added text or badges. Preserve product shape faithfully.",
+      "references": [
+        "C:/Users/mervy/OneDrive/Desktop/cs2024-final-project/assets/images/aureveil-sun-serum.webp"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-005ca478-5ffa-4976-9e06-6888dea926e1.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "name": "aureveil-sun-application",
+      "prompt": "Create an original editorial skincare application photograph, landscape 4:3. An adult Southeast Asian woman about 30, natural medium skin tone and visible real skin texture, hair loosely tied back, ivory blouse, softly lit pale-blue and ivory bathroom. She gently spreads a small visible dab of white sunscreen on one cheek with two fingertips. Her other hand holds the reference Aureveil sunscreen tube below her chin, full product visible and label facing camera. Preserve the white tube, pale-blue cap/base, gold band and navy serif lowercase \"aureveil\" wordmark; do not invent a different brand. Elegant realistic hands, five fingers per hand, relaxed expression, tasteful natural morning beauty photography. Not a before-and-after photograph, no altered skin-lightening result, no perfect plastic skin, no text overlay, no extra cosmetics.",
+      "references": [
+        "C:/Users/mervy/OneDrive/Desktop/cs2024-final-project/assets/images/aureveil-sun-serum.webp"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-d1d4a1db-20e0-448d-873f-6877d2a983a5.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    },
+    {
+      "name": "aureveil-mist-application",
+      "prompt": "Create an original luxury skincare application photograph, landscape 4:3. An adult Southeast Asian woman around 30, natural medium skin tone and real skin texture, hair loosely tied back, pale ivory blouse, calm powder-blue and ivory morning interior. Eyes and mouth comfortably closed, head in three-quarter profile. She holds the exact reference Aureveil Cloud Mist spray bottle upright about 25 centimetres away from her face and presses the exposed white spray pump; its clear removable cap is resting separately on the ivory vanity. A delicate, fine mist is visible between bottle and face, with no dramatic cloud. Preserve pale-blue bottle, gold collar, navy serif lowercase \"aureveil\" and CLOUD MIST / 120 ml label. Realistic anatomy and hand grip, five fingers, full bottle visible, soft directional sunlight. Editorial application imagery, not proof of results. No extra text, product claims, watermarks, or skin-lightening effect.",
+      "references": [
+        "C:/Users/mervy/OneDrive/Desktop/cs2024-final-project/assets/images/aureveil-cloudy-mist.webp"
+      ],
+      "output_hint": "Generated images are saved to C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be as C:\\Users\\mervy\\.codex\\generated_images\\01a1615f-b892-7ac1-9e98-5e68c3c768be\\exec-d98cb2cb-2228-4b11-8b2b-a63e7371f043.png by default.\nIf you need to use a generated image at another path, copy it and leave the original in place unless the user explicitly asks you to delete it.\nThe generated image is already displayed to the user. There is no need to render it in the final response as a Markdown image or file link."
+    }
+  ]
+}

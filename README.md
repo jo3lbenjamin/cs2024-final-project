@@ -16,8 +16,8 @@ The generated HTML, CSS, JavaScript, images and fonts work without npm dependenc
 
 ## What is included
 
-- Fifteen main pages: Home, Daily Sun Serum, Cloud Mist, Duo, Ingredients, Routine Finder, Journal, Our Story, FAQ, Help/Contact, Skin Guide, How to Use, Christmas Gifting, What to Expect and Customer Reviews.
-- Privacy notice and accessibility/site-map pages in addition to the ten main pages.
+- Twenty main pages: Home, Sun Serum, Cloud Mist, Duo, Ingredients, Routine Finder, Journal, Our Story, FAQ, Help/Contact, Skin Guide, How to Use, Christmas Gifting, What to Expect, Reviews, Buying Guide, Shipping, Returns, Welcome Offers and the Welcome Kit.
+- Privacy notice and Site Map complete the 22-page website.
 - Original Aureveil identity, copy, editorial layout and pastel-blue/champagne-gold styling.
 - Audience: working adults in Singapore in their late twenties and early thirties (approximately 27–34).
 - Locally hosted Aureveil-branded packaging mockups, campaign imagery and fonts, including an original AI-generated editorial portrait. The customer-facing presentation uses standard brand and product language; generation provenance remains in the project documentation.
@@ -138,3 +138,11 @@ Buyer guidance now includes product-level facts and reviews, mobile purchase sho
 New pages: `offers.html`, `buying-guide.html`, `shipping.html` and `returns.html`. Product pages include decision facts, unit pricing, dated review excerpts, welcome prices, application/product-care questions and mobile purchase shortcuts. The FAQ has browser-only search; help includes optional clipboard copying of seller questions. The welcome calculator uses integer cents and supports the three products with or without first-purchase eligibility. Base prices remain S$39.90, S$59.90 and S$84.90; welcome prices are S$35.91, S$53.91 and S$76.41. The duo saves S$14.90 before the welcome saving.
 
 These are assignment frontend prices. The website does not issue a Shopee voucher, validate customer eligibility, create an order or change Shopee checkout. The user requested retaining the own-brand presentation. No new payment integration or on-site checkout has been introduced. Official research and generated image provenance are in `planning/buying-guide-sources.json` and `planning/buying-image-prompt.json`.
+
+## Complimentary Welcome Kit
+
+Every product includes two Sun Serum discovery sachets and a printed ritual card. The duo also includes an Everyday Pouch and pocket mirror, with gift bag, tissue and blank message card on request. The Welcome Kit page includes three original printable PDFs and a browser-generated optional calendar reminder.
+
+The approved assignment policy allows a sample-first return requested within 14 days of delivery for an unopened, sealed full-size product. Reusable gifts and unused samples accompany the return; used sachets are exempt. Customer-paid change-of-mind return postage and excluded original delivery charges are stated clearly. Actual linked seller fulfilment and return approval are not integrated or established by this website. Copy buttons only copy text; they do not send requests or place orders.
+
+Sources: `scripts/welcome-kit.mjs`, `scripts/generate-gift-pdfs.py`, `planning/welcome-kit-sources.json` and `planning/welcome-kit-image-prompts.json`. PDFs are committed static assets; regenerating them requires ReportLab, fontTools and Pillow. No Python dependency is needed to visit or deploy the site.

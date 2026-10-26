@@ -22,3 +22,6 @@ Portable alternative upload:
 aureveil-publish.zip includes all 21 HTML pages, active local assets, fonts, scripts and styles. It excludes planning/source notes, reports and unused images. Host-specific canonical/Open Graph URL metadata is removed from that portable ZIP; regenerate it after edits.
 
 The offer calculator changes on-site display only. Purchases continue through the two external Shopee links.
+
+WELCOME KIT UPDATE
+The site contains 22 HTML pages. Upload assets/downloads/ with all three PDFs, the seven new gift/preview images, updated CSS/JS and all generated HTML. Keep welcome-kit.html at the site root. Static files work on GitHub Pages HTTPS. The optional calendar is a download only. Physical gifts, discounts and the assignment return policy require actual fulfilment arrangements before commercial use.

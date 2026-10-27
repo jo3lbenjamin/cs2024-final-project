@@ -287,3 +287,18 @@
   status.textContent='Calendar file created for '+count+' daily reminders at '+time.value+'. Import it only if you want to add the reminders.';
  });
 })();
+
+// Filter gifts by regular retail price; every card stays available without JavaScript.
+(() => {
+ const filter=document.querySelector('.gift-budget-filter'),grid=document.querySelector('#gift-results');if(!filter||!grid)return;
+ const buttons=[...filter.querySelectorAll('[data-gift-max]')],cards=[...grid.querySelectorAll('[data-gift-price]')],status=filter.querySelector('.gift-budget-status');
+ const select=max=>{
+  if(!['all','4000','6000','9000'].includes(max))return;
+  let count=0;for(const card of cards){const show=max==='all'||Number(card.dataset.giftPrice)<Number(max);card.hidden=!show;if(show)count++;}
+  for(const button of buttons)button.setAttribute('aria-pressed',String(button.dataset.giftMax===max));
+  grid.dataset.filtered=String(max!=='all');
+  status.textContent=max==='all'?'Showing all '+count+' gifts.':'Showing '+count+' '+(count===1?'gift':'gifts')+' under S$'+Number(max)/100+'.';
+ };
+ filter.hidden=false;const fallback=document.querySelector('.gift-budget-fallback');if(fallback)fallback.hidden=true;
+ for(const button of buttons)button.addEventListener('click',()=>select(button.dataset.giftMax));select('all');
+})();

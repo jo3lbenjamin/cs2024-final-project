@@ -263,3 +263,7 @@ The 14-day sample-first policy is approved for this assignment, with unopened fu
 ## Inclusive public copy — 27 October 2026
 
 The late-twenties and early-thirties audience remains an internal planning persona. Customer-facing copy addresses shared needs and busy routines without stating an age bracket or implying universal skin suitability. Explicit age references are removed from the home page, founder story and portrait alt text.
+
+## Sample-first reassurance at the product price — 27 October 2026
+
+A highlighted card now follows the pricing summary and precedes the main purchase action on the SPF, mist and duo pages. It replaces the former below-button extras teaser on individual-product pages. Two links lead directly to the discovery-samples section and the 14-day sample-first return policy. The card states unopened, unused and sealed eligibility, customer-paid change-of-mind postage and excluded original delivery charges. Mist copy explicitly identifies the sachets as Daily Sun Serum samples, rather than implying that mist samples are included. Duo returns refer to both full-size products. Existing full policy and gift-return conditions remain the authoritative details.

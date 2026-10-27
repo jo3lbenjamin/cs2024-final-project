@@ -214,13 +214,13 @@ The user requested an own-brand presentation throughout the public website. The 
 
 The user requested a fictional solo female founder who spent several years in corporate work, noticed tired-looking skin and early fine lines amid a demanding schedule, and wanted a comfortable sunscreen and a calmer daily ritual. This is creative brand storytelling, not a verified biography. The founder remains unnamed; no qualifications, clinical results, manufacturing history or dated business milestones are invented. The existing AI campaign portrait remains illustrative and is not identified as a real founder photograph. Calm refers to the experience of taking time for a routine, not to treatment of psychological stress by sunscreen.
 
-Aureveil began with one woman who knew how easily work could take over. A few years into corporate life, long days, late nights and the pressure to keep up had become familiar. In her late twenties, she started noticing tired-looking skin and the first fine lines.
+Aureveil began with one woman who knew how easily work could take over. A few years into corporate life, long days, late nights and the pressure to keep up had become familiar. Over time, she started noticing tired-looking skin and the first fine lines.
 
 She hoped to keep her youthful glow, but an elaborate skincare routine felt like another task. She was looking for a comfortable sunscreen she would enjoy wearing, and a quiet moment each morning that belonged to her.
 
 That wish became Aureveil. As a solo founder, she built the brand around simple daily care: sun protection for the day ahead and a refreshing mist for a small pause between meetings.
 
-For working adults in their late twenties and early thirties, Aureveil is an invitation to make a little room for yourself. A moment of calm in the routine, and care you can return to every day.
+Aureveil is an invitation to make a little room for yourself, even on the busiest days. A moment of calm in the routine, and care you can return to every day.
 
 ## Retail presentation wording — 22 October 2026
 
@@ -259,3 +259,7 @@ The site now contains 22 pages (20 main pages plus Privacy and Site Map). Every 
 A product-aware gift selector and copyable request lower uncertainty. Original six-page Daily Skin Guide, one-page A6 ritual card and A4 seven-day habit tracker are downloadable. An optional local `.ics` exporter creates 7, 14 or 30 reminders at the visitor-selected local time, without connecting a calendar account.
 
 The 14-day sample-first policy is approved for this assignment, with unopened full-size eligibility, customer-paid return postage and reusable-gift return conditions. It is not an integration with the linked seller. Samples do not prove allergy tolerance or promise visible changes after seven days.
+
+## Inclusive public copy — 27 October 2026
+
+The late-twenties and early-thirties audience remains an internal planning persona. Customer-facing copy addresses shared needs and busy routines without stating an age bracket or implying universal skin suitability. Explicit age references are removed from the home page, founder story and portrait alt text.

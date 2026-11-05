@@ -1,0 +1,50 @@
+{
+  "updated": "2026-11-05",
+  "basis": "Editorial search-intent mapping based on customer questions. Search volumes and rankings have not been verified.",
+  "pages": {
+    "index.html": [
+      "lightweight sunscreen Singapore",
+      "SPF50+ sunscreen",
+      "sunscreen and premature skin aging"
+    ],
+    "sun-serum.html": [
+      "lightweight daily sunscreen",
+      "SPF50+ sunscreen",
+      "sunscreen before makeup"
+    ],
+    "cloudy-mist.html": [
+      "hydrating facial mist"
+    ],
+    "duo.html": [
+      "sunscreen and hydrating mist duo"
+    ],
+    "journal.html": [
+      "can sunscreen help prevent premature skin aging",
+      "sunscreen before makeup"
+    ],
+    "how-to-use.html": [
+      "how to apply sunscreen before makeup"
+    ],
+    "skin-guide.html": [
+      "sunscreen for your skin type"
+    ],
+    "faq.html": [
+      "can sunscreen help prevent premature skin aging"
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-select-sunscreen",
+      "use": "General broad-spectrum sunscreen and UV-related premature skin aging guidance; not a product-specific clinical trial."
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+      "use": "Existing journal source about daily sunscreen use and visible skin ageing."
+    }
+  ],
+  "limits": [
+    "No promise to reverse aging or extend life.",
+    "No claim of verified rankings, search volume or AI citations.",
+    "No product schema, indexing submission or analytics changes in this copy update."
+  ]
+}

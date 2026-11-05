@@ -1,0 +1,135 @@
+{
+  "date": "2026-11-05",
+  "summary": "Customer clarity, test-result interpretation, social identity and presentation sync",
+  "site": {
+    "pages": 26,
+    "mainPages": 24,
+    "faqAnswers": 52,
+    "faqGroups": 8,
+    "reviewExcerpts": 8
+  },
+  "presentation": {
+    "designId": "DAHYsiA_smE",
+    "pageCount": 55,
+    "revisedSlides": [
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      24,
+      25,
+      26,
+      27,
+      28,
+      30,
+      38,
+      39,
+      41,
+      42,
+      52,
+      53,
+      54,
+      55
+    ],
+    "approval": "User explicitly approved saving all 22 revised slide previews.",
+    "status": "Saved and fetched for verification"
+  },
+  "social": {
+    "accountsCreated": false,
+    "footer": "Three accessible non-interactive platform marks; user supplied no profile URLs.",
+    "mockups": [
+      "assets/social/aureveil-instagram-launch.webp",
+      "assets/social/aureveil-facebook-launch.webp",
+      "assets/social/aureveil-tiktok-launch.webp"
+    ],
+    "provenance": "planning/social-launch-mockups.json"
+  },
+  "learnings": [
+    {
+      "title": "Customer language before technical detail",
+      "learning": "Fine-lines and dark-spots empathy now sits in the homepage introduction.",
+      "recommendation": "Use recognisable customer concerns as brand-authored copy, then connect to daily UV protection and a practical next step.",
+      "limits": "Copy hypothesis; customer quotations remain exact and attributed. Conversion impact is unmeasured.",
+      "url": "https://jo3lbenjamin.github.io/cs2024-final-project/"
+    },
+    {
+      "title": "Translate product testing into everyday decisions",
+      "learning": "Protection, patch assessment and hydration cards now explain what each result means to the customer.",
+      "recommendation": "Lead with benefit and action, retain the figures, participants, methods and linked sources.",
+      "limits": "Manufacturer-published results apply to the linked formula. Comfort signals do not guarantee suitability for every person.",
+      "url": "https://jo3lbenjamin.github.io/cs2024-final-project/evidence.html#product-testing"
+    },
+    {
+      "title": "Hydration readings do not determine SPF duration",
+      "learning": "Added a direct FAQ explaining why hydration results do not remove reapplication.",
+      "recommendation": "Keep a simple morning routine and clear outdoor reapplication guidance together.",
+      "limits": "Reapply approximately every two hours outdoors and after swimming or sweating, following the label.",
+      "url": "https://www.aad.org/media/stats-sunscreen"
+    },
+    {
+      "title": "Specific coastal guidance builds clearer environmental understanding",
+      "learning": "Added coastal-care guidance explaining ingredient-list context and protective habits.",
+      "recommendation": "Use specific ingredient facts, clothing, shade and destination guidance rather than blanket ecosystem claims.",
+      "limits": "Absence of oxybenzone and octinoxate alone does not prove the complete formula is reef-safe.",
+      "url": "https://oceanservice.noaa.gov/news/sunscreen-corals.html"
+    },
+    {
+      "title": "Quote attribution needs its own layout block",
+      "learning": "Fixed the line crossing the homepage review by removing an inherited attribution border and displaying the source on a separate line.",
+      "recommendation": "Keep shared source-note styles scoped to their context; visually check desktop and mobile.",
+      "limits": "Browser verification showed a zero-width attribution top border. Exact review wording was preserved.",
+      "url": "https://jo3lbenjamin.github.io/cs2024-final-project/#daily-sunscreen-evidence"
+    },
+    {
+      "title": "Social identity without invented destinations",
+      "learning": "Added labelled Facebook, Instagram and TikTok marks to all 26 page footers.",
+      "recommendation": "Keep marks non-interactive until actual profile URLs are available.",
+      "limits": "User confirmed no actual accounts exist. No dead links or live-account claims were added.",
+      "url": "https://jo3lbenjamin.github.io/cs2024-final-project/"
+    },
+    {
+      "title": "Proposed social launch previews",
+      "learning": "Created Instagram, Facebook and TikTok page mockups and saved them in the presentation.",
+      "recommendation": "Connect each preview to a customer question and a relevant website next step.",
+      "limits": "Proposed launch previews only; no accounts, fabricated follower counts or engagement statistics.",
+      "url": "https://www.canva.com/design/DAHYsiA_smE/SjFRKNdF7xI5x_2sEkpoTw/edit"
+    },
+    {
+      "title": "Keep the deck aligned with the built website",
+      "learning": "Updated 22 slides, five persona journeys, 26-page navigation, 52 FAQ answers in eight groups and eight dated review excerpts.",
+      "recommendation": "Maintain a single content ledger when the site grows, preserving teammates' current persona work.",
+      "limits": "Persona scenarios are planning hypotheses. Current checks verify structure and links, not rankings, indexing or conversion.",
+      "url": "https://www.canva.com/design/DAHYsiA_smE/SjFRKNdF7xI5x_2sEkpoTw/edit"
+    }
+  ],
+  "airtable": {
+    "baseId": "appCo5WbfnTgcMfD5",
+    "clientId": "recURCkFMaVhqF74d",
+    "learningRecordIds": [
+      "recB8Zeai6wNvujyZ",
+      "recwprcbQsxwQBxdb",
+      "recJsNtwc1Z9U26w2",
+      "recfvv57YMENUZ4Jh",
+      "recvDE88zOMgCAcrd",
+      "recls4iVDsvBDlCZb",
+      "reczVZIQCcmzncFG1",
+      "recTjZygMpjCowIzk"
+    ],
+    "websiteContentId": "recwc5p087uGGG5G0",
+    "presentationContentId": "rec8JUQhZwCj6w5xd"
+  },
+  "validation": {
+    "structureIssues": 0,
+    "duplicateIdIssues": 0,
+    "footerLabelIssues": 0,
+    "desktopWidth": 1528,
+    "mobileWidth": 390,
+    "horizontalOverflow": false,
+    "quoteAttributionBorder": "0px",
+    "lighthouse": "Not rerun for this update; no current perfect-score claim."
+  }
+}

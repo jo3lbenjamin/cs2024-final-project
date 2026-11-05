@@ -1,0 +1,104 @@
+{
+  "date": "2026-11-05",
+  "website": {
+    "newPage": "why-switch.html",
+    "totalPages": 27,
+    "mainPages": 25,
+    "faqAnswers": 52,
+    "faqGroups": 8,
+    "reviewExcerpts": 8,
+    "message": "Reasons to consider switching: lightweight dewy texture, SPF samples, explained evidence and a simple edit. No switching-rate or competitor-superiority claim.",
+    "discovery": [
+      "Skin & ritual navigation",
+      "Footer Discover group",
+      "Homepage comparison signpost",
+      "Daily Sun Serum guide signpost"
+    ]
+  },
+  "galleryFix": {
+    "selector": ".product-hero > .product-gallery",
+    "change": "align-self:start",
+    "cause": "The parent grid centres gallery and tall product details vertically.",
+    "desktopWidth": 1528,
+    "beforeTop": {
+      "sun": 587.625,
+      "mist": 602.475
+    },
+    "afterTop": {
+      "sun": 221.65000915527344,
+      "mist": 221.65000915527344
+    },
+    "unchanged": [
+      "Right-column position and dimensions",
+      "Heading position and dimensions",
+      "Price position and dimensions",
+      "Gallery dimensions",
+      "Hero dimensions"
+    ],
+    "verification": [
+      "Both product pages at desktop and 390px",
+      "No horizontal overflow",
+      "Gallery campaign image switching"
+    ]
+  },
+  "presentation": {
+    "pageCount": 57,
+    "reusedWhySwitchSlide": 21,
+    "revisedSlides": [
+      21,
+      33,
+      42,
+      51,
+      56,
+      57
+    ],
+    "duplicateAudit": {
+      "exactDuplicates": 0,
+      "overlaps": [
+        {
+          "pages": [
+            5,
+            56
+          ],
+          "treatment": "Keep product introduction; repurpose 56 as switching-page walkthrough."
+        },
+        {
+          "pages": [
+            38,
+            42
+          ],
+          "treatment": "Keep SEO strategy; repurpose 42 as implementation validation and measurement."
+        },
+        {
+          "pages": [
+            33,
+            57
+          ],
+          "treatment": "Keep grouped navigation; label 57 as an appendix inventory and update counts."
+        }
+      ],
+      "distinctPurposesRetained": [
+        [
+          25,
+          28
+        ],
+        [
+          46,
+          47
+        ]
+      ]
+    }
+  },
+  "checks": {
+    "structureIssues": 0,
+    "canonicalAndSitemap": true,
+    "desktopWidth": 1528,
+    "mobileWidth": 390,
+    "globalNavigationLinksVerified": true
+  },
+  "sources": [
+    "https://jo3lbenjamin.github.io/cs2024-final-project/returns.html#sample-first",
+    "https://jo3lbenjamin.github.io/cs2024-final-project/evidence.html#product-testing",
+    "https://jo3lbenjamin.github.io/cs2024-final-project/skin-guide.html"
+  ]
+}

@@ -1,4 +1,5 @@
 import {applyWelcomeKit} from './welcome-kit.mjs';
+import {applySearchCopy} from './search-copy.mjs';
 import {applyOfferImprovements} from './offers.mjs';
 import {applyBuyingImprovements} from './buying.mjs';
 import {reviewExcerpts} from './reviews.mjs';
@@ -90,6 +91,7 @@ pages.push(...createExpansionPages(helpers));
 applyBuyingImprovements(pages,helpers);
 applyOfferImprovements(pages,helpers);
 applyWelcomeKit(pages,helpers);
+applySearchCopy(pages,helpers);
 const sitemapPage=pages.find(page=>page.file==='accessibility.html');
 const originalSitemap=sitemapPage.content;
 const sitemapNames={'index.html':'Home','sun-serum.html':'Daily Sun Serum','cloudy-mist.html':'Cloud Mist','duo.html':'Protect + Refresh Duo','ingredients.html':'Interactive ingredients guide','routine.html':'Daily routine finder','journal.html':'The Aureveil journal','about.html':'Our story','faq.html':'Frequently asked questions','contact.html':'Help and contact','privacy.html':'Privacy notice','skin-guide.html':'Skin suitability and ingredient lists','how-to-use.html':'How to use','christmas.html':'Christmas gifting','what-to-expect.html':'What to expect','reviews.html':'Customer reviews','buying-guide.html':'Buying guide and product care','shipping.html':'Shipping and delivery','returns.html':'Returns and refunds','offers.html':'Welcome offer and prices','welcome-kit.html':'Complimentary gifts, samples and guides'};

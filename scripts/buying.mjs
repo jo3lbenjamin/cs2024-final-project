@@ -98,6 +98,7 @@ function allQuestions(h) {
       ['How do I use Cloud Mist?', 'Hold 20–30cm from the face, close your eyes and spray once or twice, following the current packaging directions. Allow it to absorb.'],
       ['Does Cloud Mist set makeup or replace sunscreen?', 'Cloud Mist offers hydration and a dewy feel. It does not promise longer makeup wear, has no stated SPF and does not replace sunscreen reapplication.'],
       ['Can I use these alongside retinol, vitamin C or a prescription?', 'Check the directions for each product. Our routine finder does not assess ingredient interactions or prescriptions; ask a dermatologist or pharmacist if you have a compatibility concern.'],
+      ['Can sunscreen help prevent premature skin aging?', 'Yes. Consistent broad-spectrum sunscreen use helps prevent early signs of skin aging caused by UV exposure. Combine it with shade and protective clothing. Read our <a href="journal.html#sun-protection">sunscreen and skin aging guide</a> for the evidence and everyday routine.'],
       ['Will these reverse ageing or produce results in seven days?', 'We do not promise age reversal, lifespan extension or a guaranteed seven-day transformation. The <a href="what-to-expect.html">expectations guide</a> explains texture, finish and routine-building.']
     ]],
     ['care','Ingredients, storage & product care',[

@@ -144,6 +144,38 @@ body{font-size:16px;line-height:1.85;background:var(--paper)}
 .kit-purchase-teaser.sample-first-card{margin:24px 0 25px;padding:24px 26px;border:1px solid #b9cfdc;border-left:3px solid var(--gold);background:linear-gradient(125deg,#e8f3fa 0%,#f4f7f6 70%,#fbf5e9 100%);box-shadow:0 8px 24px #17364c08}.sample-first-card h2{font-size:31px;line-height:1.12;margin:12px 0 16px;letter-spacing:0}.kit-purchase-teaser.sample-first-card p:not(.micro){font-size:14px;line-height:1.75;margin-bottom:14px;color:#365468}.kit-purchase-teaser.sample-first-card .micro{font-size:10px;letter-spacing:.13em;color:#365468;margin:0}.sample-first-card .sample-card-policy strong{color:var(--ink);font-weight:600}.sample-card-links{display:flex;flex-wrap:wrap;gap:4px 25px;margin:4px 0 12px}.sample-first-card .sample-card-links .text-link{font-size:12px;min-height:44px;line-height:1.5;gap:12px;align-items:center}.sample-card-links svg{width:19px;height:19px}.kit-purchase-teaser.sample-first-card .sample-card-terms{font-size:12px;line-height:1.65;margin:0;color:#435f71}
 @media(max-width:760px){.kit-purchase-teaser.sample-first-card{padding:22px 20px;margin:20px 0 24px}.sample-first-card h2{font-size:29px;line-height:1.12}.kit-purchase-teaser.sample-first-card p:not(.micro){font-size:13px;line-height:1.75}.sample-card-links{display:grid;grid-template-columns:1fr 1fr;gap:12px}.sample-first-card .sample-card-links .text-link{font-size:12px;min-height:44px;gap:8px}.kit-purchase-teaser.sample-first-card .sample-card-terms{font-size:12px;line-height:1.65}}
 
+/* Published research, readable comparisons and educational entry points. */
+.research-card-grid,.research-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+#product-testing>.section-heading,#ingredient-research>.section-heading,.research-perspectives .section-heading{display:grid;grid-template-columns:1.1fr 1fr;gap:60px;align-items:end}
+#product-testing .section-heading>p,#ingredient-research .section-heading>p,.research-perspectives .section-heading>p{max-width:none;min-width:0}
+.research-card{padding:clamp(25px,3vw,44px);border:1px solid #c7d5dc;background:linear-gradient(135deg,#f1f6f8,#fbfaf6);min-width:0}
+.research-card h3{font-size:clamp(28px,3vw,38px);line-height:1.16;margin:16px 0}
+.research-card p,.research-context p,.research-intro p{font-size:16px;line-height:1.8}
+.research-card .micro{font-size:11px;letter-spacing:.12em;color:#6a542f}
+.research-card .evidence-number{font-size:clamp(75px,9vw,125px);line-height:1;margin:25px 0}
+.research-card a,.research-context a,.research-version a{overflow-wrap:anywhere}
+.research-card .source-note{margin-bottom:0;font-size:14px}
+.research-card .evidence-context{font-size:15px;border-top:1px solid #c7d5dc;padding-top:18px}
+.research-context,.research-intro{max-width:940px;margin:38px 0;padding-left:25px;border-left:2px solid #b49b70}
+.research-context h3,.research-intro h3,.research-version h3{font-size:32px;line-height:1.2}
+.research-perspectives{background:#edf3f5}.research-perspectives .research-card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+.research-version{padding:30px 0;border-bottom:1px solid #c7d5dc}
+.research-filter-grid h3{font-family:Manrope,sans-serif;font-size:19px;overflow-wrap:anywhere}
+.research-signpost{display:grid;grid-template-columns:1.2fr 1fr;gap:55px;align-items:center;border-bottom:1px solid #c7d5dc}
+.research-signpost .inline-actions{display:flex;flex-direction:column;align-items:flex-start;gap:18px}
+.research-signpost p{max-width:680px}
+.testing-preview{margin-top:38px;padding:30px;border:1px solid #afc7d5;background:#ffffff70;max-width:940px}
+.testing-preview h3{font-size:34px;line-height:1.14}.testing-preview p{font-size:16px}
+.testing-preview .micro{font-size:11px;color:#6a542f}.testing-preview .text-link{font-size:15px}
+.research-prose>section{padding:0 0 65px;margin:0 0 60px;border-bottom:1px solid #c7d5dc;scroll-margin-top:145px}
+.research-prose>section:last-child{margin:0;border:0;padding:0}.research-prose h3{font-size:32px;line-height:1.25;margin-top:35px}
+.number-compare{display:grid;grid-template-columns:1fr 1fr;gap:25px;margin:35px 0}
+.number-compare>div{background:#e9f1f5;border-top:2px solid #b49b70;padding:30px}
+.number-compare .evidence-number{font-size:110px;margin:22px 0}.number-compare p:last-child{font-size:15px;margin:0}
+#product-testing,#ingredient-research,#specialist-perspectives,#formula-versions{scroll-margin-top:145px}
+@media(max-width:950px){.research-perspectives .research-card-grid{grid-template-columns:1fr}.research-signpost{gap:30px}.research-filter-grid{grid-template-columns:1fr}}
+@media(max-width:650px){.research-card-grid,.research-grid,.research-signpost,#product-testing>.section-heading,#ingredient-research>.section-heading,.research-perspectives .section-heading{grid-template-columns:1fr;gap:25px}.research-card{padding:25px}.research-context,.research-intro{padding-left:19px}.research-signpost{gap:20px}.testing-preview{padding:24px}.number-compare{gap:12px}.number-compare>div{padding:20px 14px}.number-compare .evidence-number{font-size:78px}.research-prose h2{font-size:43px}.research-prose>section{padding-bottom:40px;margin-bottom:40px}}
+
 /* Awareness-based journeys and readable sunscreen evidence. */
 .sunscreen-evidence{background:linear-gradient(125deg,#e8f3fa,#f8f7f3 80%);scroll-margin-top:140px}
 .evidence-columns{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,7vw,110px);align-items:start}

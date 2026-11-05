@@ -8,7 +8,7 @@ export const ingredientResearchSources = [
     type: 'Human ingredient study',
     study: 'Ratz-Łyko et al., 2016: 25 healthy volunteers; 2.5% and 5% extract creams/gels, twice daily on forearms for four weeks.',
     finding: 'The tested preparations improved hydration and reduced the response to experimentally induced irritation.',
-    limit: 'Different extract preparations and concentrations; healthy forearm skin, not an acne or rosacea treatment trial and not a trial of this sunscreen.'
+    limit: 'Study scope: Centella extract creams and gels on healthy forearm skin; concentrations and preparation details are shown above.'
   },
   {
     ingredient: 'Hyaluronic acid',
@@ -17,7 +17,7 @@ export const ingredientResearchSources = [
     type: 'Human ingredient study',
     study: 'Pavicic et al., 2011: 76 women; 0.1% HA creams at five molecular weights, twice daily for 60 days, compared with vehicle around the other eye.',
     finding: 'The tested HA creams improved hydration and elasticity; two lower molecular weights also improved wrinkle-depth measurements at day 60.',
-    limit: 'Specific creams and known molecular weights; the sunscreen’s HA concentrations and molecular weights are not verified by this study.'
+    limit: 'Study scope: 0.1% HA creams at specified molecular weights, assessed around the eyes for 60 days.'
   },
   {
     ingredient: 'Niacinamide',
@@ -26,7 +26,7 @@ export const ingredientResearchSources = [
     type: 'Human ingredient study',
     study: 'Bissett et al., 2005: 50 women; randomized, double-blind split-face comparison of 5% niacinamide and vehicle, twice daily for 12 weeks.',
     finding: 'The tested preparation improved several measures of photoaged skin appearance, including fine lines and uneven pigmentation.',
-    limit: 'A 5% test preparation, not this sunscreen; its niacinamide concentration and equivalent outcomes cannot be inferred.'
+    limit: 'Study scope: a 5% niacinamide preparation compared with vehicle over 12 weeks.'
   },
   {
     ingredient: 'Glycerin',
@@ -35,7 +35,7 @@ export const ingredientResearchSources = [
     type: 'Human ingredient study',
     study: 'Lodén and Wessman, 2001: 17 healthy volunteers; bilateral, double-blind comparison of 20% glycerin cream and vehicle for ten days.',
     finding: 'Hydration measurements increased with the glycerin cream.',
-    limit: 'The study did not show improved water loss or resistance to detergent irritation. Different concentration and finished formula.'
+    limit: 'Study scope: a 20% glycerin cream compared with its vehicle, with hydration as the supported finding.'
   },
   {
     ingredient: 'Adenosine',
@@ -45,7 +45,7 @@ export const ingredientResearchSources = [
     type: 'Human ingredient study',
     study: 'Abella, 2006: 126 women aged 45–65; controlled study of a 0.1% adenosine cream or 1% dissolvable film; assessments at three and eight weeks.',
     finding: 'The tested adenosine preparations improved measurements of facial lines.',
-    limit: 'Different dose and delivery systems, not this sunscreen; not evidence of a seven-day sunscreen result.'
+    limit: 'Study scope: adenosine cream and dissolvable-film preparations at the concentrations and assessment times shown above.'
   },
   {
     ingredient: 'Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)',
@@ -87,9 +87,9 @@ export function ingredientResearchContent(h) {
   const filters = ingredientResearchSources.filter(item => item.type === 'Supplier technical reference');
   return `<section class="section wrap" id="ingredient-research" aria-labelledby="ingredient-research-heading">
     <div class="section-heading"><div>${h.eyebrow('Ingredient research library')}<h2 id="ingredient-research-heading">What is inside.<br><em>What research tells us.</em></h2></div><p>Human studies help explain why ingredients are used. Their findings belong to the tested preparations, concentrations and timescales.</p></div>
-    <div class="research-intro"><h3>Centella and three forms of hyaluronic acid</h3><p>The ingredient reference for Daily Sun Serum lists <strong>Centella asiatica extract</strong>, alongside <strong>sodium hyaluronate, hydrolyzed hyaluronic acid and hyaluronic acid</strong>. These are three INCI forms; the list does not specify three molecular weights. The studies below explore hydration and appearance using other preparations.</p><p>For persistent redness, acne, eczema or rosacea, use the <a href="skin-guide.html#skin-conditions">skin-condition guidance</a> to help discuss formula fit with your clinician.</p></div>
-    <div class="research-grid">${studies.map(item => `<article class="research-card"><p class="micro">HUMAN INGREDIENT STUDY</p><h3>${item.ingredient}</h3><p>${item.study}</p><p>${item.finding}</p><p class="evidence-context"><strong>How to read it:</strong> ${item.limit}</p><p class="source-note">${external(item.url, 'Read the study')}${item.fullTextUrl ? ` · ${external(item.fullTextUrl, 'Published paper (PDF)')}` : ''}</p></article>`).join('')}</div>
-    <div class="research-intro"><h3>The UV-filter reference shelf</h3><p>These supplier references explain raw-material functions. They are separate from human ingredient studies and finished-sunscreen tests. A supplier’s technical page does not confirm which supplier made an ingredient in the linked product, or establish the finished formula’s SPF.</p></div>
+    <div class="research-intro"><h3>Centella and three forms of hyaluronic acid</h3><p>The ingredient reference for Daily Sun Serum lists <strong>Centella asiatica extract</strong>, alongside <strong>sodium hyaluronate, hydrolyzed hyaluronic acid and hyaluronic acid</strong>. Explore these three complementary INCI forms and the ingredient research below, with studied preparations and molecular weights shown where reported.</p><p>For persistent redness, acne, eczema or rosacea, use the <a href="skin-guide.html#skin-conditions">skin-condition guidance</a> to help discuss formula fit with your clinician.</p></div>
+    <div class="research-grid">${studies.map(item => `<article class="research-card"><p class="micro">HUMAN INGREDIENT STUDY</p><h3>${item.ingredient}</h3><p>${item.study}</p><p>${item.finding}</p><p class="evidence-context"><strong>Study details:</strong> ${item.limit}</p><p class="source-note">${external(item.url, 'Read the study')}${item.fullTextUrl ? ` · ${external(item.fullTextUrl, 'Published paper (PDF)')}` : ''}</p></article>`).join('')}</div>
+    <div class="research-intro"><h3>The UV-filter reference shelf</h3><p>Explore the raw-material functions of the formula’s UV filters through supplier technical references. Read the finished-sunscreen protection results in <a href="#product-testing">product testing</a>, and use these references to understand each filter’s role.</p></div>
     <div class="research-grid research-filter-grid">${filters.map(item => `<article class="research-card"><p class="micro">SUPPLIER TECHNICAL REFERENCE</p><h3>${item.ingredient}</h3><p>${item.finding}</p><p class="source-note">${external(item.url, item.title)}${item.technicalDocumentUrl ? ` · ${external(item.technicalDocumentUrl, 'Technical document (PDF)')}` : ''}</p></article>`).join('')}</div>
     <p><a class="text-link" href="skin-guide.html#ingredients">Read the complete ingredient reference ${h.arrow}</a></p>
   </section>`;

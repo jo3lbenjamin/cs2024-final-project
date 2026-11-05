@@ -1,0 +1,38 @@
+{
+  "checkedAt": "2026-11-05",
+  "claims": [
+    {
+      "topic": "Photoaging prevention",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/23732711/",
+      "measure": "Relative odds 0.76 for increased skin aging with daily versus discretionary sunscreen over 4.5 years; 903 eligible adults under55; hand-surface grading.",
+      "limits": "Different SPF15+ formula. Not facial wrinkle counts or an Aureveil trial."
+    },
+    {
+      "topic": "Visible appearance timeline",
+      "source": "https://pubmed.ncbi.nlm.nih.gov/27749441/",
+      "measure": "32 completers, single-arm SPF30 study, first postbaseline assessment12weeks and follow-up52weeks.",
+      "limits": "No parallel control, other formula, cointerventions and restricted population. No Aureveil seven-day claim."
+    },
+    {
+      "topic": "80% UV contribution",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3790843/",
+      "limits": "298 white women30–78, observational population-specific estimate, not universal80–90% or preventable fraction."
+    },
+    {
+      "topic": "UV and collagen",
+      "source": "https://pmc.ncbi.nlm.nih.gov/articles/PMC1618600/",
+      "limits": "General human-skin research, no Aureveil collagen-rebuilding claim."
+    },
+    {
+      "topic": "Application",
+      "source": "https://www.aad.org/public/everyday-care/sun-protection/shade-clothing-sunscreen/how-to-apply-sunscreen",
+      "facts": "At least1teaspoon face;15minutes before outdoors;reapply2hours outdoors and after swimming/sweating. Follow product label; water resistance not established for this version."
+    },
+    {
+      "topic": "New product testing",
+      "source": "https://www.aad.org/public/everyday-care/skin-care-secrets/prevent-skin-problems/test-skin-care-products",
+      "facts": "Small-area testing twice daily7–10days, stop if reaction. Samples do not guarantee suitability."
+    }
+  ],
+  "screenshotHandling": "Search-result summaries treated as leads. Only verified findings used. No imported cancer-risk percentages recast as wrinkle prevention or product-specific results."
+}

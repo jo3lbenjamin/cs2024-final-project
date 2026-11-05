@@ -1,0 +1,167 @@
+{
+  "status": "Illustrative planning hypotheses for validation, not customer interview findings",
+  "personas": [
+    {
+      "persona": "Rachel Tan",
+      "awareness": "Problem-aware, still learning about solutions",
+      "startingPoint": "Notices tired-looking skin after busy weeks and wants to know which everyday care steps matter.",
+      "stages": [
+        {
+          "stage": "Discover",
+          "question": "What could help me care for my skin over time?",
+          "pages": [
+            "index.html#daily-sunscreen-evidence",
+            "journal.html#sun-protection"
+          ],
+          "action": "Understand the role of daily sun protection and realistic timelines."
+        },
+        {
+          "stage": "Understand",
+          "question": "What should I do before sunscreen, and how much do I apply?",
+          "pages": [
+            "how-to-use.html#sun-serum",
+            "how-to-use.html#your-order"
+          ],
+          "action": "Check preparation, application amount, morning order and reapplication."
+        },
+        {
+          "stage": "Evaluate",
+          "question": "Will it feel comfortable under makeup?",
+          "pages": [
+            "sun-serum.html",
+            "reviews.html#sun-reviews",
+            "routine.html"
+          ],
+          "action": "Review the finish and build a manageable daily routine."
+        },
+        {
+          "stage": "Purchase",
+          "question": "What will it cost, and how do I order?",
+          "pages": [
+            "sun-serum.html",
+            "shipping.html",
+            "buying-guide.html"
+          ],
+          "action": "Check the full order details and follow the Shopee link for the 50ml option."
+        }
+      ],
+      "afterPurchase": {
+        "question": "How do I keep the routine going?",
+        "pages": [
+          "how-to-use.html",
+          "what-to-expect.html",
+          "welcome-kit.html"
+        ],
+        "action": "Follow the application guide and use the optional tracker or calendar reminder."
+      }
+    },
+    {
+      "persona": "Aisha Rahman",
+      "awareness": "Solution-aware, comparing sunscreens",
+      "startingPoint": "Already wants daily sunscreen and compares ingredients, finish, price and suitability before choosing.",
+      "stages": [
+        {
+          "stage": "Compare",
+          "question": "How does this sunscreen compare with my other options?",
+          "pages": [
+            "sun-serum.html#compare-sunscreens",
+            "duo.html"
+          ],
+          "action": "Compare protection, texture, product size, activity needs and cost."
+        },
+        {
+          "stage": "Research",
+          "question": "Will the formula fit my skin and existing routine?",
+          "pages": [
+            "skin-guide.html#ingredients",
+            "skin-guide.html#sensitivity",
+            "faq.html"
+          ],
+          "action": "Read the full ingredient reference and suitability guidance."
+        },
+        {
+          "stage": "Reassure",
+          "question": "Can I explore the texture before opening the full-size tube?",
+          "pages": [
+            "welcome-kit.html#discovery-samples",
+            "returns.html#sample-first",
+            "reviews.html#sun-reviews"
+          ],
+          "action": "Read the sample-first process and sealed-product return conditions."
+        },
+        {
+          "stage": "Purchase",
+          "question": "Do the price and conditions work for me?",
+          "pages": [
+            "sun-serum.html",
+            "shipping.html",
+            "buying-guide.html"
+          ],
+          "action": "Confirm the selected item and full order total before paying on Shopee."
+        }
+      ],
+      "afterPurchase": {
+        "question": "How should I introduce a new product?",
+        "pages": [
+          "skin-guide.html#sensitivity",
+          "how-to-use.html",
+          "returns.html#sample-first"
+        ],
+        "action": "Follow new-product testing and packaging directions, keeping the full-size tube sealed while trying the sachets."
+      }
+    },
+    {
+      "persona": "Daniel Lim",
+      "awareness": "Product-category aware, comparing gifts",
+      "startingPoint": "Wants a skincare gift and compares presentation, usefulness, price and delivery.",
+      "stages": [
+        {
+          "stage": "Discover",
+          "question": "Which gift fits the person and my budget?",
+          "pages": [
+            "christmas.html#gift-edit"
+          ],
+          "action": "Browse by budget and consider the recipient’s preferences."
+        },
+        {
+          "stage": "Compare",
+          "question": "Should I choose one product or the Duo?",
+          "pages": [
+            "duo.html",
+            "sun-serum.html",
+            "cloudy-mist.html"
+          ],
+          "action": "Compare the separate protection and hydration roles, contents and prices."
+        },
+        {
+          "stage": "Confirm",
+          "question": "What is included, and when will it arrive?",
+          "pages": [
+            "welcome-kit.html",
+            "shipping.html",
+            "skin-guide.html"
+          ],
+          "action": "Check gift presentation, included extras, ingredient preferences and delivery information."
+        },
+        {
+          "stage": "Purchase",
+          "question": "How do I order the right items?",
+          "pages": [
+            "buying-guide.html",
+            "duo.html"
+          ],
+          "action": "Open the relevant Shopee listings and confirm the complete order."
+        }
+      ],
+      "afterPurchase": {
+        "question": "How can the recipient get started?",
+        "pages": [
+          "shipping.html",
+          "how-to-use.html",
+          "welcome-kit.html"
+        ],
+        "action": "Track the order and share the application guide and care resources."
+      }
+    }
+  ]
+}

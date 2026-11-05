@@ -40,7 +40,7 @@ export const personaJourneyPlan = [
 ];
 
 export function homepageStarts(h) {
-  return `<section class="section wrap journey-starts" aria-labelledby="journey-starts-heading">${h.eyebrow('A little clarity, at your pace')}<h2 id="journey-starts-heading">Start where<br><em>you are.</em></h2><nav class="journey-start-links" aria-label="Choose your skincare starting point"><a href="journal.html#sun-protection"><strong>New to daily sunscreen?</strong><span>Understand what it can do and when to expect change.</span></a><a href="sun-serum.html#compare-sunscreens"><strong>Comparing sunscreens?</strong><span>Check protection, texture, ingredients and everyday fit.</span></a><a href="christmas.html"><strong>Choosing a thoughtful gift?</strong><span>Explore the essentials by budget and occasion.</span></a></nav></section>`;
+  return `<section class="section wrap journey-starts" aria-labelledby="journey-starts-heading">${h.eyebrow('A little clarity, at your pace')}<h2 id="journey-starts-heading">Start where<br><em>you are.</em></h2><nav class="journey-start-links" aria-label="Choose your skincare starting point"><a href="sunscreen-benefits.html"><strong>New to daily sunscreen?</strong><span>Understand what it can do and when to expect change.</span></a><a href="sun-serum.html#compare-sunscreens"><strong>Comparing sunscreens?</strong><span>Check protection, texture, ingredients and everyday fit.</span></a><a href="christmas.html"><strong>Choosing a thoughtful gift?</strong><span>Explore the essentials by budget and occasion.</span></a></nav></section>`;
 }
 
 export function comparisonSection(h) {

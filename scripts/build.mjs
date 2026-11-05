@@ -1,6 +1,7 @@
 import {applyWelcomeKit} from './welcome-kit.mjs';
 import {applySearchCopy} from './search-copy.mjs';
 import {applyJourneyEvidence} from './journey-evidence.mjs';
+import {applyResearchUpdate} from './research-update.mjs';
 import {applyOfferImprovements} from './offers.mjs';
 import {applyBuyingImprovements} from './buying.mjs';
 import {reviewExcerpts} from './reviews.mjs';
@@ -94,12 +95,13 @@ applyOfferImprovements(pages,helpers);
 applyWelcomeKit(pages,helpers);
 applySearchCopy(pages,helpers);
 applyJourneyEvidence(pages,helpers);
+applyResearchUpdate(pages,helpers);
 const sitemapPage=pages.find(page=>page.file==='accessibility.html');
 const originalSitemap=sitemapPage.content;
-const sitemapNames={'index.html':'Home','sun-serum.html':'Daily Sun Serum','cloudy-mist.html':'Cloud Mist','duo.html':'Protect + Refresh Duo','ingredients.html':'Interactive ingredients guide','routine.html':'Daily routine finder','journal.html':'The Aureveil journal','about.html':'Our story','faq.html':'Frequently asked questions','contact.html':'Help and contact','privacy.html':'Privacy notice','skin-guide.html':'Skin suitability and ingredient lists','how-to-use.html':'How to use','christmas.html':'Christmas gifting','what-to-expect.html':'What to expect','reviews.html':'Customer reviews','buying-guide.html':'Buying guide and product care','shipping.html':'Shipping and delivery','returns.html':'Returns and refunds','offers.html':'Welcome offer and prices','welcome-kit.html':'Complimentary gifts, samples and guides'};
+const sitemapNames={'index.html':'Home','sun-serum.html':'Daily Sun Serum','cloudy-mist.html':'Cloud Mist','duo.html':'Protect + Refresh Duo','ingredients.html':'Interactive ingredients guide','routine.html':'Daily routine finder','journal.html':'The Aureveil journal','about.html':'Our story','faq.html':'Frequently asked questions','contact.html':'Help and contact','privacy.html':'Privacy notice','skin-guide.html':'Skin suitability and ingredient lists','how-to-use.html':'How to use','christmas.html':'Christmas gifting','what-to-expect.html':'What to expect','reviews.html':'Customer reviews','buying-guide.html':'Buying guide and product care','shipping.html':'Shipping and delivery','returns.html':'Returns and refunds','offers.html':'Welcome offer and prices','welcome-kit.html':'Complimentary gifts, samples and guides','evidence.html':'Product testing and ingredient research','sunscreen-benefits.html':'Sunscreen benefits and SPF50 vs SPF100'};
 sitemapPage.content=()=>originalSitemap().replace(/<ul class="site-map">[\s\S]*?<\/ul>/,'<ul class="site-map">'+pages.filter(page=>page.file!=='accessibility.html').map(page=>'<li><a href="'+page.file+'">'+sitemapNames[page.file]+'</a></li>').join('')+'</ul>');
-function header(active){return expansionHeader(active,helpers);}
-function footer(){return expansionFooter();}
+function header(active){return expansionHeader(active,helpers).replace('<a href="journal.html"','<a href="evidence.html">Testing &amp; research</a><a href="sunscreen-benefits.html">Sunscreen benefits</a><a href="journal.html"');}
+function footer(){return expansionFooter().replace('<a href="ingredients.html">Ingredients</a>','<a href="ingredients.html">Ingredients</a><a href="evidence.html">Testing &amp; research</a><a href="sunscreen-benefits.html">Sunscreen benefits</a>');}
 function modal(){return `<dialog id="duo-dialog" aria-labelledby="duo-dialog-title"><div class="dialog-head"><p class="eyebrow">Your daily pairing</p><button class="dialog-close" aria-label="Close product links">×</button></div><h2 id="duo-dialog-title">Explore the duo<br><em>on Shopee.</em></h2><p>Two daily essentials. Explore Daily Sun Serum and Cloud Mist on Shopee.</p><div class="dialog-products"><div>${img('aureveil-sun-serum','Daily Sun Serum packshot')}<div><h3>Daily Sun Serum</h3><p>50ml · SPF50+ PA++++</p>${link(sunURL,'View Daily Sun Serum','text-link')}</div></div><div>${img('aureveil-cloudy-mist','Cloud Mist packshot')}<div><h3>Cloud Mist</h3><p>120ml · Hydrating facial mist</p>${link(mistURL,'View Cloud Mist','text-link')}</div></div></div><p class="fine-print">Each product link opens Shopee in a new tab.</p></dialog>`;}
 
 for(const page of pages){

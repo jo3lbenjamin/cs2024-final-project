@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-05",
+  "source": {
+    "url": "https://coreebeauty.com/en/blogs/coree-beauty/routine-skincare-coreenne-skin1004-avis-resultats",
+    "publisher": "Coree Beauty",
+    "published": "2026-06-09",
+    "type": "Retailer first-person routine account",
+    "scope": "Six months using cleansing oil, cleanser, toner and sunscreen; four-product routine, not a sunscreen-only trial."
+  },
+  "implementation": {
+    "pages": [
+      "index.html",
+      "what-to-expect.html",
+      "faq.html"
+    ],
+    "milestones": [
+      "3–4 weeks: routine check-in for hydration and comfort",
+      "2–3 months: consistent routine and review of complexion"
+    ],
+    "attribution": "Visible routine-experience labels and direct source links. Individual experiences vary.",
+    "clinicalEvidence": "Existing 12–52-week SPF appearance study and 4.5-year daily-sunscreen trial retained.",
+    "presentation": {
+      "page": 23,
+      "approach": "Routine-experience panel beside existing published-sunscreen evidence",
+      "totalSlides": 57
+    }
+  },
+  "validation": {
+    "pages": 27,
+    "mainPages": 25,
+    "structureIssues": 0,
+    "desktopWidth": 1528,
+    "mobileWidth": 390,
+    "overflow": false,
+    "timelineCards": 6,
+    "desktopColumns": 3,
+    "mobileColumns": 1
+  },
+  "learning": "Use personal routine accounts as attributed experiences or check-in prompts, preserving the distinction from product clinical testing and guaranteed outcome timing."
+}

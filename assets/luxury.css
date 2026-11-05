@@ -214,3 +214,50 @@ body{font-size:16px;line-height:1.85;background:var(--paper)}
 @media(max-width:900px){.results-timeline{grid-template-columns:repeat(2,minmax(0,1fr))}.evidence-columns{gap:35px}.journey-starts{gap:20px 35px}.prep-order{gap:25px}}
 @media(max-width:650px){.evidence-columns,.journey-starts,.results-timeline,.prep-order,.sunscreen-quick-facts{grid-template-columns:1fr}.sunscreen-quick-facts{gap:22px}.journey-starts>h2{margin-bottom:0}.evidence-context{font-size:16px}.evidence-application-link{display:block}.evidence-application-link .source-note{display:block;margin-top:18px}.prep-order{padding-left:25px}.evidence-result{padding-left:22px}.results-timeline{gap:25px}}
 
+
+/* Awards, recognition and the people behind Aureveil. */
+.recognition-hero{display:grid;grid-template-columns:1fr 1fr;gap:clamp(36px,5vw,78px);align-items:center;padding-block:38px 76px}
+.recognition-hero>div,.recognition-hero figure{min-width:0}
+.recognition-hero h1{font-size:clamp(60px,5.8vw,88px);line-height:1.02;letter-spacing:-.025em;margin:0 0 32px}
+.recognition-hero>div>p:not(.eyebrow){max-width:560px;font-size:16px;line-height:1.9;color:#526d80}
+.recognition-hero .text-link{margin-top:14px;font-size:15px;min-height:44px}
+.recognition-hero figure{margin:0;border:1px solid #c8d7dd;background:#eaf1f4}
+.recognition-hero figure img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.recognition-strip{background:linear-gradient(125deg,#e9f2f6 0%,#f8f7f3 75%);border-block:1px solid #d7e1e5}
+.recognition-strip .section-heading,#award-results>.section-heading{display:grid;grid-template-columns:1.1fr 1fr;gap:55px;align-items:end}
+.recognition-strip .section-heading>p,#award-results>.section-heading>p{max-width:none;min-width:0;font-size:16px;line-height:1.85;color:#526d80}
+.recognition-strip-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px}
+.recognition-strip-grid>article{display:flex;flex-direction:column;align-items:flex-start;min-width:0;padding:34px 30px 28px;border:1px solid #c3d4dd;border-top:2px solid #b39b70;background:#ffffff87}
+.recognition-strip-grid .micro,.award-card .micro{font-size:11px;line-height:1.7;letter-spacing:.11em;color:#80602c;margin-bottom:22px}
+.recognition-strip-grid h3{font-family:var(--serif);font-size:clamp(38px,3.5vw,54px);line-height:1.05;letter-spacing:-.02em;margin:0 0 18px}
+.recognition-strip-grid>article>p:not(.micro){flex:1;font-size:17px;line-height:1.65;color:#365468;margin-bottom:24px}
+.recognition-strip-grid .text-link{font-size:14px;line-height:1.5;min-height:44px;gap:14px}
+.recognition-strip-grid .text-link svg{width:20px;height:20px;flex-shrink:0}
+.recognition-more{margin:32px 0 0}.recognition-more .text-link{font-size:15px;min-height:44px}
+.award-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+.award-card{min-width:0;padding:clamp(28px,3.2vw,46px);border:1px solid #c8d7dd;border-top:2px solid #b39b70;background:linear-gradient(140deg,#f0f5f7,#fbfaf5);scroll-margin-top:145px}
+.award-card .award-result{font-family:var(--serif);font-size:clamp(42px,4vw,60px);line-height:1.06;letter-spacing:-.025em;color:#17364c;margin:0 0 15px}
+.award-card h3{font-size:clamp(30px,3vw,40px);line-height:1.15;margin:0 0 22px}
+.award-card p:not(.micro):not(.award-result){font-size:16px;line-height:1.85;color:#526d80}
+.award-card .source-note{padding-top:20px;margin-top:26px;margin-bottom:0;border-top:1px solid #d1dce0}
+.award-card .source-note a,.award-card>p>a{font-size:14px;overflow-wrap:anywhere}
+#award-results,#selection-methods{scroll-margin-top:145px}
+#selection-methods h3{font-size:34px;line-height:1.2;margin-top:38px}
+#selection-methods>p{font-size:16px;line-height:1.9;color:#526d80}
+#selection-methods>.source-note{font-size:14px}
+.team-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
+.team-card{min-width:0;padding:36px 30px;border:1px solid #c6d5dd;border-top:2px solid #b39b70;background:linear-gradient(135deg,#edf4f8,#fbfaf6)}
+.team-card h2{font-size:clamp(31px,3vw,42px);line-height:1.12;letter-spacing:-.015em;min-height:2.24em;margin:0 0 34px}
+.team-card dl{margin:0}.team-card dl>div+div{margin-top:24px;padding-top:24px;border-top:1px solid #cbd9df}
+.team-card dt{font-size:13px;line-height:1.65;color:#526d80;margin:0 0 8px}
+.team-card dd{font-size:16px;line-height:1.75;color:#17364c;margin:0;overflow-wrap:anywhere}
+.team-card dd a{font-size:15px;overflow-wrap:anywhere;text-underline-offset:5px;text-decoration-thickness:1px}
+.team-card dd a:hover{color:#80602c}
+#product-testing>.research-card-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+#product-testing>.research-card-grid .research-card{padding:clamp(24px,2.5vw,38px)}
+#product-testing>.research-card-grid .evidence-number{font-size:clamp(70px,7.4vw,112px)}
+#product-testing>.research-card-grid h3{font-size:clamp(27px,2.6vw,35px)}
+#study-details{padding-block:22px}#study-details>summary{cursor:pointer;font-size:16px;font-weight:600;color:#17364c;line-height:1.7;min-height:44px;align-content:center}#study-details>div{padding-top:12px}#study-details:open>summary{margin-bottom:12px}
+@media(max-width:1000px){.recognition-strip-grid{gap:18px}.recognition-strip-grid>article{padding:28px 23px}.recognition-strip-grid h3{font-size:39px}.team-grid{gap:18px}.team-card{padding:30px 24px}.team-card h2{font-size:34px}.team-card dd a{font-size:14px}#product-testing>.research-card-grid{grid-template-columns:repeat(2,minmax(0,1fr))}#product-testing>.research-card-grid .research-card:last-child{grid-column:1/-1}.recognition-strip .section-heading,#award-results>.section-heading{gap:35px}}
+@media(max-width:760px){.recognition-hero{grid-template-columns:1fr;gap:32px;padding-block:25px 50px}.recognition-hero h1{font-size:clamp(56px,10vw,75px);margin-bottom:25px}.recognition-hero>div>p:not(.eyebrow){font-size:16px;line-height:1.85}.recognition-strip-grid,.team-grid{grid-template-columns:1fr;gap:22px}.recognition-strip-grid>article{padding:30px}.recognition-strip-grid h3{font-size:45px}.recognition-strip-grid>article>p:not(.micro){font-size:16px}.recognition-strip .section-heading,#award-results>.section-heading{grid-template-columns:1fr;gap:22px}.recognition-strip .section-heading>p,#award-results>.section-heading>p{margin:0}.award-grid{gap:20px}.award-card{padding:28px 24px}.award-card .award-result{font-size:43px}.award-card h3{font-size:31px}.team-card{padding:32px 28px}.team-card h2{font-size:37px;min-height:0;margin-bottom:28px}.team-card dt{font-size:13px}.team-card dd,.team-card dd a{font-size:16px}.recognition-more .text-link{font-size:14px;line-height:1.6}}
+@media(max-width:650px){.award-grid,#product-testing>.research-card-grid{grid-template-columns:1fr}#product-testing>.research-card-grid .research-card:last-child{grid-column:auto}#product-testing>.research-card-grid .evidence-number{font-size:100px}#product-testing>.research-card-grid .research-card{padding:28px}#product-testing>.research-card-grid h3{font-size:33px}.recognition-hero h1{font-size:57px}.recognition-strip .micro,.award-card .micro{font-size:11px}.award-card p:not(.micro):not(.award-result){font-size:16px}.team-card dd a{font-size:15px}}

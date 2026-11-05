@@ -1,0 +1,17 @@
+{
+  "generatedOn": "2026-11-05",
+  "mode": "Built-in image_gen",
+  "useCase": "product-mockup",
+  "referencePath": "assets/images/aureveil-sun-campaign.webp",
+  "dimensions": {
+    "width": 1536,
+    "height": 1024
+  },
+  "prompt": "Use case: product-mockup.\nAsset type: landscape editorial product photograph for Aureveil's awards and recognition webpage, approximately 1536 by 1024 composition.\nInput image: reference image for exact packaging and brand identity, not an award reference.\nPrimary request: Create a fresh premium beauty product campaign photograph of the same Aureveil Daily Sun Serum tube shown in the reference. Preserve the white ivory tube, softly squared tapered silhouette, ribbed crimp at the top, navy serif Aureveil wordmark, pastel blue lower section and cap, and thin gold dividing line.\nScene: One upright tube centered on a low ivory travertine plinth, a soft pastel-blue architectural backdrop and warm ivory surface. A subtle curved gold reflection and diffused daylight suggest quiet luxury. Refined soft shadows, real stone texture, gentle glass-like reflected light, spacious landscape framing, product sharply readable with room around it.\nText on tube, verbatim only: \"aureveil\", \"DAILY SUN SERUM\", \"50 ml\".\nStyle: photorealistic luxury skincare advertising, elegant restrained styling, ivory/pastel blue/navy/warm gold palette, professional studio optics.\nConstraints: one product only. No people, award logos, trophies, laurels, badges, seals, certificates, laboratory imagery, medical claims, additional text, watermark or other brand name. Do not add SPF claims or award text to the image. Awards will be displayed separately as webpage text.",
+  "purpose": "Premium product photograph for recognition editorial. Award statements and source labels remain in HTML.",
+  "visualQA": "Single tube; correct Aureveil wording, Daily Sun Serum and50ml; ivory/blue/gold palette; no award marks, lab certificate or claim text.",
+  "publishedFiles": [
+    "assets/images/aureveil-recognition.webp",
+    "assets/images/aureveil-recognition-600.webp"
+  ]
+}

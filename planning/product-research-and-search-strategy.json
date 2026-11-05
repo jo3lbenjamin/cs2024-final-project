@@ -1,0 +1,311 @@
+{
+  "reviewed": "2026-11-05",
+  "productSources": [
+    {
+      "id": "water-fit-formula",
+      "label": "Manufacturer: Korean/global SPF50+ PA++++ formula",
+      "url": "https://www.skin1004.com/products/hyalu-cica-water-fit-sun-serum-spf50-pa?country=GB",
+      "type": "Manufacturer product information",
+      "scope": "SKIN1004 Hyalu-Cica Water-Fit Sun Serum SPF50+ PA++++",
+      "finding": "Four organic UV filters, Centella Asiatica Extract and three named hyaluronic acid forms.",
+      "limits": "Different from the US Sun Serum UV and the non-SPF Blue Serum; check the purchased label."
+    },
+    {
+      "id": "water-fit-spf",
+      "label": "Manufacturer summary: human SPF test",
+      "url": "https://info.skin1004.com/guide/sunscreen-for-oily-skin-without-the-greasy-shine",
+      "type": "Manufacturer-reported product test",
+      "scope": "Korean/global sunscreen formula",
+      "finding": "ISO 24444:2019; mean SPF 50.5; 10 adults; back application at 2.0 mg/cm².",
+      "limits": "Summary, not an original signed report retrieved by this project; not an Aureveil trial or a wrinkle study."
+    },
+    {
+      "id": "water-fit-hydration",
+      "label": "Manufacturer summary: ProbeM moisture studies",
+      "url": "https://info.skin1004.com/guide/hydrating-sunscreen-with-hyaluronic-acid-how-to-choose",
+      "type": "Manufacturer-reported product test",
+      "scope": "Korean/global sunscreen formula",
+      "finding": "April 2023 ProbeM human moisture studies; low-humidity trial used 20 adults and forearm Corneometer readings.",
+      "limits": "Forearm surface hydration indoors; sensitive skin excluded; no facial wrinkle, acne, oil-control or sunscreen-duration outcome."
+    },
+    {
+      "id": "water-fit-hydration-values",
+      "label": "Manufacturer: moisture readings and general patch test",
+      "url": "https://info.skin1004.com/guide/moisturizing-sunscreen-that-wont-leave-skin-feeling-tight",
+      "type": "Manufacturer-reported product test",
+      "scope": "Korean/global sunscreen formula",
+      "finding": "Hydration 47.45 A.U. before, 80.52 after application, 79.21 after 30 minutes at 20–25% humidity; separate 30-adult 24-hour back patch test described.",
+      "limits": "No numerical patch-test outcome on the retrieved summary; no sensitive-skin or eye-irritation test."
+    },
+    {
+      "id": "doctor-anne-review",
+      "label": "Doctor Anne: review and reported KDRI results",
+      "url": "https://www.doctoranne.de/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-spf-50-pa-my-new-favorite-office-sunscreen-doctors-review/",
+      "type": "Secondary physician review",
+      "scope": "Water-Fit Sun Serum SPF50+ PA++++ reviewed in November 2022",
+      "finding": "Reports SPF 50.5 ± 7.1 and PFA 16.56 ± 2.69 attributed to Korea Dermatology Research Institute.",
+      "limits": "Original certificate not retrieved; gifted product and affiliate links disclosed; accompanying video sponsored by the brand."
+    },
+    {
+      "id": "dermington-editorial",
+      "label": "Dermington: ingredient-based editorial review",
+      "url": "https://dermington.com/products/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-spf-50/",
+      "type": "Editorial assessment",
+      "scope": "Water-Fit Sun Serum SPF50+ PA++++",
+      "finding": "Discusses ingredient roles, finish and product considerations.",
+      "limits": "Not a product laboratory report or clinical treatment trial."
+    },
+    {
+      "id": "sunscreen-tester",
+      "label": "The Sunscreen Tester: exploratory UV experiment",
+      "url": "https://www.sunscreentester.com/skin1004-madagascar-centella-hyalu-cica-water-fit-sun-serum-spf-50-sunscreen-lotion/",
+      "type": "Non-standard exploratory experiment",
+      "scope": "A Water-Fit Sun Serum sample",
+      "finding": "Uses a sunscreen layer between microscope slides and a UV sensor; method linked separately.",
+      "limits": "Not ISO SPF or UVA-PF testing; percentages cannot be treated as SPF/PA verification or a human protection guarantee."
+    },
+    {
+      "id": "blue-serum-formula",
+      "label": "Manufacturer: Hyalu-Cica Blue Serum",
+      "url": "https://www.skin1004.com/products/skin1004-madagascar-centella-hyalu-cica-blue-serum",
+      "type": "Manufacturer product information",
+      "scope": "Separate non-SPF hydrating serum",
+      "finding": "Centella leaf water, five HA forms and Ceramide NP; no SPF label.",
+      "limits": "No original Blue Serum clinical report retrieved; do not transfer sunscreen or Moisture Cream test results."
+    },
+    {
+      "id": "us-uv-formula",
+      "label": "Manufacturer: US Water-Fit Sun Serum UV",
+      "url": "https://www.skin1004.com/products/hyalu-cica-water-fit-sun-serum-uv",
+      "type": "Manufacturer product information",
+      "scope": "Separate US SPF50 formula",
+      "finding": "Different active UV filters and ingredients from the Korean/global SPF50+ PA++++ sunscreen.",
+      "limits": "Korean/global product test results cannot be transferred to this separate formula."
+    }
+  ],
+  "ingredientSources": [
+    {
+      "ingredient": "Centella asiatica extract",
+      "title": "Moisturizing and Antiinflammatory Properties of Cosmetic Formulations Containing Centella asiatica Extract",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4852572/",
+      "type": "Human ingredient study",
+      "study": "Ratz-Łyko et al., 2016: 25 healthy volunteers; 2.5% and 5% extract creams/gels, twice daily on forearms for four weeks.",
+      "finding": "The tested preparations improved hydration and reduced the response to experimentally induced irritation.",
+      "limit": "Different extract preparations and concentrations; healthy forearm skin, not an acne or rosacea treatment trial and not a trial of this sunscreen."
+    },
+    {
+      "ingredient": "Hyaluronic acid",
+      "title": "Efficacy of cream-based novel formulations of hyaluronic acid of different molecular weights in anti-wrinkle treatment",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22052267/",
+      "type": "Human ingredient study",
+      "study": "Pavicic et al., 2011: 76 women; 0.1% HA creams at five molecular weights, twice daily for 60 days, compared with vehicle around the other eye.",
+      "finding": "The tested HA creams improved hydration and elasticity; two lower molecular weights also improved wrinkle-depth measurements at day 60.",
+      "limit": "Specific creams and known molecular weights; the sunscreen’s HA concentrations and molecular weights are not verified by this study."
+    },
+    {
+      "ingredient": "Niacinamide",
+      "title": "Niacinamide: A B vitamin that improves aging facial skin appearance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/16029679/",
+      "type": "Human ingredient study",
+      "study": "Bissett et al., 2005: 50 women; randomized, double-blind split-face comparison of 5% niacinamide and vehicle, twice daily for 12 weeks.",
+      "finding": "The tested preparation improved several measures of photoaged skin appearance, including fine lines and uneven pigmentation.",
+      "limit": "A 5% test preparation, not this sunscreen; its niacinamide concentration and equivalent outcomes cannot be inferred."
+    },
+    {
+      "ingredient": "Glycerin",
+      "title": "The influence of a cream containing 20% glycerin and its vehicle on skin barrier properties",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18498456/",
+      "type": "Human ingredient study",
+      "study": "Lodén and Wessman, 2001: 17 healthy volunteers; bilateral, double-blind comparison of 20% glycerin cream and vehicle for ten days.",
+      "finding": "Hydration measurements increased with the glycerin cream.",
+      "limit": "The study did not show improved water loss or resistance to detergent irritation. Different concentration and finished formula."
+    },
+    {
+      "ingredient": "Adenosine",
+      "title": "Evaluation of anti-wrinkle efficacy of adenosine-containing products using the FOITS technique",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18489289/",
+      "fullTextUrl": "https://magistralbr.caldic.com/storage/product-files/1582866893.pdf",
+      "type": "Human ingredient study",
+      "study": "Abella, 2006: 126 women aged 45–65; controlled study of a 0.1% adenosine cream or 1% dissolvable film; assessments at three and eight weeks.",
+      "finding": "The tested adenosine preparations improved measurements of facial lines.",
+      "limit": "Different dose and delivery systems, not this sunscreen; not evidence of a seven-day sunscreen result."
+    },
+    {
+      "ingredient": "Diethylamino Hydroxybenzoyl Hexyl Benzoate (DHHB)",
+      "title": "DSM-Firmenich PARSOL DHHB",
+      "url": "https://www.dsm-firmenich.com/en/businesses/perfumery-beauty/beauty-care/products/parsol-dhhb.html",
+      "type": "Supplier technical reference",
+      "finding": "UVA absorber.",
+      "limit": "Raw-material function, not a finished-product SPF test or confirmation of the supplier used."
+    },
+    {
+      "ingredient": "Ethylhexyl Triazone",
+      "title": "BASF Uvinul T 150",
+      "url": "https://my.basf.com/de-DE/pdp/30035119",
+      "technicalDocumentUrl": "https://promo.basf.com/campaign/Projetos/CaringForYou/Documentos/Geral/Uvinul%C2%AE%20T%20150.pdf",
+      "type": "Supplier technical reference",
+      "finding": "UVB filter.",
+      "limit": "Raw-material function, not a finished-product SPF test or confirmation of the supplier used."
+    },
+    {
+      "ingredient": "Methylene Bis-Benzotriazolyl Tetramethylbutylphenol (MBBT)",
+      "title": "BASF Tinosorb M",
+      "url": "https://care360.basf.com/global/en/Product-Finder/30482916",
+      "type": "Supplier technical reference",
+      "finding": "Broad-spectrum UV filter.",
+      "limit": "Raw-material function, not a finished-product SPF test or confirmation of the supplier used."
+    },
+    {
+      "ingredient": "Diethylhexyl Butamido Triazone",
+      "title": "3V Sigma UVASORB HEB",
+      "url": "https://www.3vsigma.com/en/products/85/uvasorb-heb",
+      "type": "Supplier technical reference",
+      "finding": "UV-filter ingredient reference; detailed technical download requires supplier login.",
+      "limit": "Public product listing, not a publicly accessible finished-sunscreen laboratory report or confirmation of the supplier used."
+    }
+  ],
+  "personaSearchMap": [
+    {
+      "persona": "Rachel",
+      "awareness": "Problem aware",
+      "query": "benefits of sunscreen",
+      "destination": "sunscreen-benefits.html#benefits",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Rachel",
+      "awareness": "Problem aware",
+      "query": "does sunscreen prevent wrinkles",
+      "destination": "sunscreen-benefits.html#sunscreen-and-wrinkles",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Rachel",
+      "awareness": "Problem aware",
+      "query": "SPF50 vs SPF100",
+      "destination": "sunscreen-benefits.html#spf50-vs-spf100",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Rachel",
+      "awareness": "Problem aware",
+      "query": "how much sunscreen to apply",
+      "destination": "how-to-use.html#sun-serum",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Aisha",
+      "awareness": "Solution aware",
+      "query": "sunscreen for sensitive skin",
+      "destination": "skin-guide.html#skin-conditions",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Aisha",
+      "awareness": "Solution aware",
+      "query": "lightweight sunscreen under makeup",
+      "destination": "sun-serum.html#compare-sunscreens",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Aisha",
+      "awareness": "Solution aware",
+      "query": "does sunscreen clog pores",
+      "destination": "sunscreen-benefits.html#skin-fit",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Aisha",
+      "awareness": "Solution aware",
+      "query": "sunscreen ingredients explained",
+      "destination": "evidence.html#ingredient-research",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Daniel",
+      "awareness": "Category aware",
+      "query": "skincare gift set Singapore",
+      "destination": "christmas.html",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Daniel",
+      "awareness": "Category aware",
+      "query": "skincare gifts under $100",
+      "destination": "duo.html",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Daniel",
+      "awareness": "Category aware",
+      "query": "sunscreen and face mist set",
+      "destination": "duo.html",
+      "status": "Hypothesised query; search volume not measured"
+    },
+    {
+      "persona": "Daniel",
+      "awareness": "Category aware",
+      "query": "skincare samples and returns",
+      "destination": "returns.html#sample-first",
+      "status": "Hypothesised query; search volume not measured"
+    }
+  ],
+  "searchStrategy": {
+    "SEO": "Natural customer language, unique page metadata, crawlable links, canonical URLs and sitemap. Indexing, volume and ranking need verification.",
+    "AEO": "Question headings, direct answers and practical steps with adjacent sources; no promise of featured answers or FAQ rich results.",
+    "GEO": "Precise formula, sample size, method, period and source type; ordinary SEO foundations remain relevant to AI features. No guaranteed citation.",
+    "sources": [
+      "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "https://developers.google.com/search/docs/appearance/ai-features",
+      "https://developers.google.com/search/updates"
+    ]
+  },
+  "decisions": [
+    {
+      "topic": "First impressions",
+      "decision": "Replace unsupported seven-day framing with exact traveller2021 review excerpt, dated12February2023. No unreported result timing added.",
+      "page": "index.html#daily-sunscreen-evidence"
+    },
+    {
+      "topic": "SPF50 versus100",
+      "decision": "SPF50≈98% and100≈99% UVB filtering under test conditions. Higher SPF can help; SPF number does not establish pore-clogging. Formula, activity, amount and reapplication matter.",
+      "source": "https://www.cancer.org/cancer/risk-prevention/sun-and-uv/how-to-use-sunscreen.html"
+    },
+    {
+      "topic": "Ingredient attribution",
+      "decision": "Centella extract, Sodium Hyaluronate, Hydrolyzed Hyaluronic Acid and Hyaluronic Acid are the relevant sunscreen INCI. Do not claim leaf water,3knownmolecularweights or treatment of transient neurovascular erythema."
+    },
+    {
+      "topic": "Test reports",
+      "decision": "Use manufacturer-reported test summaries, with original product attribution. No original signed certificates or Blue Serum clinical report retrieved. Do not label summaries downloadablelabreports."
+    }
+  ],
+  "deliverables": {
+    "website": [
+      "evidence.html",
+      "sunscreen-benefits.html",
+      "homepage review and product-testing links",
+      "ingredients/product/FAQ entrypoints",
+      "persona keywords in gift/Duo/skin guidance",
+      "new pages in navigation and sitemap"
+    ],
+    "canva": {
+      "url": "https://www.canva.com/design/DAHYsiA_smE/SjFRKNdF7xI5x_2sEkpoTw/edit",
+      "approval": "User approved all6previews5Nov2026; committed transaction7274960477904866523",
+      "titles": [
+        "Protection, measured",
+        "Ingredients, with context",
+        "Queries become clear paths",
+        "SEO · Be easy to find",
+        "AEO · Answer clearly",
+        "GEO · Make evidence clear"
+      ]
+    },
+    "airtable": {
+      "baseId": "appCo5WbfnTgcMfD5",
+      "clientId": "recURCkFMaVhqF74d",
+      "purpose": "Save verified research, source limits, persona query hypotheses, website improvements and slide changes."
+    }
+  }
+}
